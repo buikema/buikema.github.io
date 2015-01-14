@@ -5,14 +5,14 @@ body {
 
 h1 {
 	background-color: #1CCC69;
-	color: #F7F7F7;
+	color: white;
+}
+
+div {
+	background-color: #E8E8E8;
+
 }
 
 h3 {
-	background-color: #E8E8E8;
 	color: #439968;
-}
-
-p{
-	background-color: #E8E8E8;
 }

@@ -1,18 +1,15 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #F7F7F7;
 	color: #2E2E2E;
 }
-
-h1 {
-	background-color: #1CCC69;
-	color: white;
-}
-
 div {
 	background-color: #E8E8E8;
-
 }
-
+h1 {
+	background-color: #1CCC69;
+	color: #fff;
+}
 h3 {
 	color: #439968;
 }

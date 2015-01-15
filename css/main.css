@@ -1,3 +1,4 @@
+/*Added during 1-on-1 with John. A minimal css reset he recommends (avoid 'Normalize' css resets wherever possible.)*/
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #F7F7F7;
@@ -10,6 +11,6 @@ h1 {
 	background-color: #1CCC69;
 	color: #fff;
 }
-h3 {
+h2 {
 	color: #439968;
 }

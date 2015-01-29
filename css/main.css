@@ -3,6 +3,7 @@
 body {
 	background-color: #F7F7F7;
 	color: #2E2E2E;
+	font-size:16px;
 }
 header {
 	text-align: center;
@@ -13,47 +14,54 @@ header#splash {
 	background-image: url("../images/cat-getting-care.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    	background-attachment: fixed;
+    	background-position: center;
 	min-height: 40em;
 }
 nav{
-	padding: 3%;
+	padding: 1em;
 	background-color: rgba(0,0,0,.3);
 }
 section {
-	margin: 10%;
-	padding:  5%;
+	margin: 2em;
+	padding:  1em;
 	background-color: rgba(0,0,0,.1);
 }
 section#title {
 	margin-top: 20%;
 	background-color: rgba(0,0,0,0);
-	font-size: 3em;
 }
 h1 {
 	background-color: rgba(255,255,255,0);
 	color: #1CCC69;
 	font-family: Georgia, Times, serif;
+	font-size:3em;
+}
+h1 span {
+	font-family:helvetica, arial, sans-serif;
+	font-size:.5em;
 }
 h2 {
 	color: #439968;
 }
 p#slogan {
-	min-width: 320px;
-	padding: 10px;
+	padding: .5em;
 	color: #F7F7F7;
-	font-size: .6em;
+	font-size: 1em;
+}
+nav ul {
+	float:left;
 }
 nav li {
 	display: inline;
 }
 nav a {
-	margin: 3%;
+	margin: 1em;
 	text-decoration: none;
 	color: #F7F7F7;
 }
 nav p {
+	float:right;
 	text-align: right;
 	color: #F7F7F7;
 }

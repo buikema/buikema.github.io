@@ -5,24 +5,55 @@ body {
 	color: #2E2E2E;
 }
 header {
+	text-align: center;
+	font-family: Helvetica, arial, sans-serif;
+
+}
+header#splash {
 	background-image: url("../images/cat-getting-care.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 	min-height: 40em;
-	text-align: center;
+}
+nav{
+	padding: 3%;
+	background-color: rgba(0,0,0,.3);
+}
+section {
+	margin: 10%;
+	padding:  5%;
+	background-color: rgba(0,0,0,.1);
+}
+section#title {
+	margin-top: 20%;
+	background-color: rgba(0,0,0,0);
+	font-size: 3em;
 }
 h1 {
 	background-color: rgba(255,255,255,0);
 	color: #1CCC69;
+	font-family: Georgia, Times, serif;
 }
 h2 {
 	color: #439968;
 }
-p {
-	background-color: #E8E8E8;
+p#slogan {
+	min-width: 320px;
+	padding: 10px;
+	color: #F7F7F7;
+	font-size: .6em;
 }
 nav li {
 	display: inline;
 }
 nav a {
+	margin: 3%;
 	text-decoration: none;
+	color: #F7F7F7;
+}
+nav p {
+	text-align: right;
+	color: #F7F7F7;
 }

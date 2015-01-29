@@ -10,9 +10,6 @@ header {
 	min-height: 40em;
 	text-align: center;
 }
-nav a {
-	text-decoration: none;
-}
 h1 {
 	background-color: rgba(255,255,255,0);
 	color: #1CCC69;
@@ -22,4 +19,10 @@ h2 {
 }
 p {
 	background-color: #E8E8E8;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	text-decoration: none;
 }

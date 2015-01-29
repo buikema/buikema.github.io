@@ -10,7 +10,7 @@ header {
 	min-height: 40em;
 	text-align: center;
 }
-nav {
+nav a {
 	text-decoration: none;
 }
 h1 {

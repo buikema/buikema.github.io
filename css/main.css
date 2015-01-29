@@ -1,8 +1,12 @@
 /*Added during 1-on-1 with John. A minimal css reset he recommends (avoid 'Normalize' css resets wherever possible.)*/
-* { margin:0; padding:0; box-sizing:border-box; }
+* { margin:0; padding:0; box-sizing: border-box; }
 body {
 	background-color: #F7F7F7;
 	color: #2E2E2E;
+}
+header {
+	background-image: url("~images/cat-getting-care.jpg");
+	background-size: cover;
 }
 h1 {
 	background-color: #1CCC69;

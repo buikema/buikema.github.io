@@ -46,9 +46,10 @@ h2 {
 	color: #439968;
 }
 p#slogan {
-	margin: .5em;
 	color: #F7F7F7;
 	font-size: 2em;
+	margin: .5em auto .5em auto;
+	width:15em;
 }
 nav ul {
 	float:left;
@@ -65,6 +66,9 @@ nav p {
 	float:right;
 	text-align: right;
 	color: #F7F7F7;
+}
+ul {
+	margin-left:1em;
 }
 .clearfix:after { 
    content: "."; 

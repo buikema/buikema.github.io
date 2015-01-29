@@ -16,7 +16,7 @@ header#splash {
 	background-repeat: no-repeat;
     	background-attachment: fixed;
     	background-position: center;
-	min-height: 40em;
+	height:95vh;
 }
 nav{
 	padding: 1em;
@@ -35,19 +35,20 @@ h1 {
 	background-color: rgba(255,255,255,0);
 	color: #1CCC69;
 	font-family: Georgia, Times, serif;
-	font-size:3em;
+	font-size:6em;
+	line-height:.65em;
 }
 h1 span {
 	font-family:helvetica, arial, sans-serif;
-	font-size:.5em;
+	font-size:.65em;
 }
 h2 {
 	color: #439968;
 }
 p#slogan {
-	padding: .5em;
+	margin: .5em;
 	color: #F7F7F7;
-	font-size: 1em;
+	font-size: 2em;
 }
 nav ul {
 	float:left;
@@ -64,4 +65,11 @@ nav p {
 	float:right;
 	text-align: right;
 	color: #F7F7F7;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }

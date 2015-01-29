@@ -5,12 +5,14 @@ body {
 	color: #2E2E2E;
 }
 header {
-	background-image: url("~images/cat-getting-care.jpg");
+	background-image: url("../images/cat-getting-care.jpg");
 	background-size: cover;
+	min-height: 40em;
+	text-align: center;
 }
 h1 {
-	background-color: #1CCC69;
-	color: #fff;
+	background-color: rgba(255,255,255,0);
+	color: #1CCC69;
 }
 h2 {
 	color: #439968;

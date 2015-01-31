@@ -8,46 +8,48 @@ body {
 header {
 	text-align: center;
 	font-family: Helvetica, arial, sans-serif;
-
 }
 header#splash {
-	background-image: url("../images/cat-getting-care.jpg");
+	background-image: url("../images/cat-getting-care.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-    	background-attachment: fixed;
-    	background-position: center;
-	height:95vh;
+	background-attachment: fixed;
+	background-position: center;
 }
 nav{
-	padding: 1em;
+	margin: 0 auto 0 auto;
+	padding: 1em 2em 1em 2em;
 	background-color: rgba(0,0,0,.3);
+	max-width: 1200px;
 }
 section {
-	margin: 2em;
+	margin: 2em auto 2em auto;
 	padding:  1em;
 	background-color: rgba(0,0,0,.1);
+	max-width: 1200px;
 }
 section#title {
-	margin-top: 20%;
+	margin-top:20%;
 	background-color: rgba(0,0,0,0);
 }
 h1 {
 	background-color: rgba(255,255,255,0);
-	color: #1CCC69;
+	color:#1CCC69;
 	font-family: Georgia, Times, serif;
 	font-size:6em;
+	margin: .5em auto .5em auto;
 	line-height:.65em;
 }
 h1 span {
-	font-family:helvetica, arial, sans-serif;
+	font-family: helvetica, arial, sans-serif;
 	font-size:.65em;
 }
 h2 {
-	color: #439968;
+	color:#439968;
 }
 p#slogan {
-	color: #F7F7F7;
-	font-size: 2em;
+	color:#F7F7F7;
+	font-size:2em;
 	margin: .5em auto .5em auto;
 	width:15em;
 }
@@ -55,16 +57,16 @@ nav ul {
 	float:left;
 }
 nav li {
+	margin-right:3em;
 	display: inline;
 }
 nav a {
-	margin: 1em;
 	text-decoration: none;
 	color: #F7F7F7;
 }
 nav p {
-	float:right;
-	text-align: right;
+	float: right;
+	margin-right:1em;
 	color: #F7F7F7;
 }
 ul {

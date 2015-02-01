@@ -6,6 +6,7 @@ body {
 	font-size:16px;
 }
 header {
+	padding: 1em 0 0 0;
 	text-align: center;
 	font-family: Helvetica, arial, sans-serif;
 }
@@ -15,12 +16,6 @@ header#splash {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-}
-nav{
-	margin: 0 auto 0 auto;
-	padding: 1em 2em 1em 2em;
-	background-color: rgba(0,0,0,.3);
-	max-width: 1200px;
 }
 section {
 	margin: 2em auto 2em auto;
@@ -32,29 +27,83 @@ section#title {
 	margin-top:20%;
 	background-color: rgba(0,0,0,0);
 }
+section#newPatients {
+	padding: 0 3em 0 2em;
+	width: 50%;
+	float: left;
+	background-color: rgba(255,255,255,0);
+
+}
+section#services {
+	padding: 0 3em 0 2em;
+	background-color: rgba(255,255,255,0);
+}
+section#contactUs {
+	padding: 0 3em 0 2em;
+	width: 50%;
+	background-color: rgba(255,255,255,0);
+	float: left;
+}
 h1 {
+	margin: .5em auto .5em auto;
+	line-height:.65em;
 	background-color: rgba(255,255,255,0);
 	color:#1CCC69;
 	font-family: Georgia, Times, serif;
-	font-size:6em;
-	margin: .5em auto .5em auto;
-	line-height:.65em;
+	font-size:6.72em;
+
 }
 h1 span {
 	font-family: helvetica, arial, sans-serif;
 	font-size:.65em;
 }
 h2 {
+	margin-bottom: .5em;
 	color:#439968;
+	font-size: 3.36em;
+}
+h4 {
+	margin: 1em 0 1em 0;
+	font-size: 1.68em;
+}
+figure {
+	display: inline;
+}
+figcaption {
+	margin: 0 0 0 2em;
+}
+img {
+	width: 50%;
+}
+p {
+	font-family: sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
 }
 p#slogan {
-	color:#F7F7F7;
-	font-size:2em;
 	margin: .5em auto .5em auto;
 	width:15em;
+	color:#F7F7F7;
+	font-size:2em;
+	line-height: 1em;
+}
+ul {
+	margin-left:1em;
+	font-family: sans-serif;
+	font-size: 1.4em;
+}
+li {
+	margin-bottom: 1em;
+}
+nav{
+	margin: 0 auto 0 auto;
+	padding: 1em 3em 1em 3em;
+	background-color: rgba(0,0,0,.3);
+	max-width: 1200px;
 }
 nav ul {
 	float:left;
+	margin: 0;
 }
 nav li {
 	margin-right:3em;
@@ -65,12 +114,9 @@ nav a {
 	color: #F7F7F7;
 }
 nav p {
-	float: right;
 	margin-right:1em;
+	float: right;
 	color: #F7F7F7;
-}
-ul {
-	margin-left:1em;
 }
 .clearfix:after { 
    content: "."; 

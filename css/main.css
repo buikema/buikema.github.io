@@ -37,6 +37,7 @@ section#newPatients {
 section#services {
 	padding: 0 3em 0 2em;
 	background-color: rgba(255,255,255,0);
+	font-size: .72em;
 }
 section#contactUs {
 	padding: 0 3em 0 2em;
@@ -62,22 +63,25 @@ h2 {
 	color:#439968;
 	font-size: 3.36em;
 }
-h4 {
-	margin: 1em 0 1em 0;
+h3 {
 	font-size: 1.68em;
 }
-figure {
+h4 {
+	margin: 1em 0 1em 0;
+	font-size: 1.5em;
+}
+/*figure {
 	display: inline;
 }
 figcaption {
-	margin: 0 0 0 2em;
-}
+	margin: 0 0 0 1em;
+}*/
 img {
 	width: 50%;
 }
 p {
 	font-family: sans-serif;
-	font-size: 1.2em;
+	font-size: 1.25em;
 	line-height: 1.4em;
 }
 p#slogan {
@@ -117,6 +121,9 @@ nav p {
 	margin-right:1em;
 	float: right;
 	color: #F7F7F7;
+}
+.columns {
+	width:33.33%;
 }
 .clearfix:after { 
    content: "."; 

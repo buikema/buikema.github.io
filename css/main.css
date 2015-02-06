@@ -1,5 +1,11 @@
 /*Added during 1-on-1 with John. A minimal css reset he recommends (avoid 'Normalize' css resets wherever possible.)*/
 * { margin:0; padding:0; box-sizing: border-box; }
+/*
+font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
 body {
 	background-color: #F7F7F7;
 	color: #2E2E2E;
@@ -8,7 +14,7 @@ body {
 header {
 	padding: 1em 0 0 0;
 	text-align: center;
-	font-family: Helvetica, arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 header#splash {
 	background-image: url("../images/cat-getting-care.png");
@@ -50,12 +56,12 @@ h1 {
 	line-height:.65em;
 	background-color: rgba(255,255,255,0);
 	color:#1CCC69;
-	font-family: Georgia, Times, serif;
+	font-family: 'Libre Baskerville', serif;
 	font-size:6.72em;
 
 }
 h1 span {
-	font-family: helvetica, arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:.65em;
 }
 h2 {
@@ -81,7 +87,7 @@ img {
 	width: 50%;
 }
 p {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.25em;
 	line-height: 1.4em;
 }

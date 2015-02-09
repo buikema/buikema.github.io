@@ -9,7 +9,7 @@ font-family: 'Roboto Slab', serif;
 body {
 	background-color: #F7F7F7;
 	color: #2E2E2E;
-	font-size:16px;
+	font-size:18px;
 }
 header {
 	padding: 1em 0 0 0;
@@ -23,30 +23,35 @@ header#splash {
 	background-attachment: fixed;
 	background-position: center;
 }
-section {
-	margin: 2em auto 2em auto;
-	padding:  1em;
+div {
+	margin: 0 auto 0 auto;
 	background-color: rgba(0,0,0,.1);
 	max-width: 1200px;
 }
+section {
+	margin: 2em auto 2em auto;
+	padding: 1em 4em 1em 4em;
+}
 section#title {
-	margin-top:20%;
+	margin: 20% auto 0 auto;
 	background-color: rgba(0,0,0,0);
 }
 section#newPatients {
-	padding: 0 3em 0 2em;
+	margin: 0;
+	padding: 0 2em 0 0;
 	width: 50%;
 	float: left;
 	background-color: rgba(255,255,255,0);
-
 }
 section#services {
-	padding: 0 3em 0 2em;
+	margin: 0 0 2em 0;
+	padding: 0;
+	width: 33%;
 	background-color: rgba(255,255,255,0);
-	font-size: .72em;
 }
 section#contactUs {
-	padding: 0 3em 0 2em;
+	margin: 0;
+	padding: 0 2em 0 0;
 	width: 50%;
 	background-color: rgba(255,255,255,0);
 	float: left;
@@ -58,53 +63,46 @@ h1 {
 	color:#1CCC69;
 	font-family: 'Libre Baskerville', serif;
 	font-size:6.72em;
-
 }
 h1 span {
 	font-family: 'Open Sans', sans-serif;
 	font-size:.65em;
 }
 h2 {
+	margin-top: .5em;
 	margin-bottom: .5em;
 	color:#439968;
 	font-size: 3.36em;
 }
 h3 {
-	font-size: 1.68em;
+	font-size: 1.4em;
 }
 h4 {
 	margin: 1em 0 1em 0;
-	font-size: 1.5em;
+	font-size: 1.4em;
+	line-height: 1.4em;
 }
-/*The figure element and styles don't yet work the way I want. Likely problem around block and inline properties on various elements.
-figure {
-	display: inline;
-}
-figcaption {
-	margin: 0 0 0 1em;
-}*/
 img {
+	padding-left: 2em;
 	width: 50%;
 }
 p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.25em;
 	line-height: 1.4em;
 }
 p#slogan {
 	margin: .5em auto .5em auto;
-	width:15em;
+	width:16em;
 	color:#F7F7F7;
-	font-size:2em;
+	font-size:1.6em;
 	line-height: 1em;
 }
 ul {
-	margin-left:1em;
+	list-style: none;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.4em;
 }
 li {
-	margin-bottom: 1em;
+	margin-bottom: 1.6em;
 }
 nav{
 	margin: 0 auto 0 auto;
@@ -119,6 +117,7 @@ nav ul {
 nav li {
 	margin-right:3em;
 	display: inline;
+	font-size: 1.4em;
 }
 nav a {
 	text-decoration: none;
@@ -128,6 +127,7 @@ nav p {
 	margin-right:1em;
 	float: right;
 	color: #F7F7F7;
+	font-size: 1.4em;
 }
 .columns {
 	width:33.33%;

@@ -3,7 +3,7 @@
 body {
 	background-color: #F7F7F7;
 	color: #2E2E2E;
-	font-size:20px;
+	font-size:18px;
 }
 header {
 	padding: 1em 0 0 0;
@@ -66,7 +66,7 @@ h2 {
 	margin-top: .5em;
 	margin-bottom: .5em;
 	color:#439968;
-	font-size: 3.36em;
+	font-size: 2.8em;
 }
 h3 {
 	font-family: 'Montserrat', sans-serif;
@@ -88,9 +88,9 @@ p {
 }
 p#slogan {
 	margin: .5em auto .5em auto;
-	width:18em;
+	width:17em;
 	color:#F7F7F7;
-	font-size:1.6em;
+	font-size:1.4em;
 	line-height: 1em;
 }
 ul {
@@ -113,7 +113,6 @@ nav ul {
 nav li {
 	margin-right:3em;
 	display: inline;
-	font-size: 1.4em;
 }
 nav a {
 	text-decoration: none;
@@ -123,7 +122,6 @@ nav p {
 	margin-right:1em;
 	float: right;
 	color: #F7F7F7;
-	font-size: 1.4em;
 }
 .clearfix:after { 
    content: "."; 

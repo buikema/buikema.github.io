@@ -5,3 +5,5 @@ The Mill Pond Animal Hospital has been open nearly 2 decades. It’s an independ
 
 ## Rokkitt and Quattrocento Sans
 This pair of typefaces is going in a less formal direction. Slab serif instead of a traditional serif. Rokkitt’s clean square serifs and the similar stroke widths of both fonts keep the look from going too far towards casual or carefree.
+
+Ultimately I went with option 1, the traditional serif/ sans pairing.

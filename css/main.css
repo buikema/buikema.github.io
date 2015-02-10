@@ -1,20 +1,14 @@
 /*Added during 1-on-1 with John. A minimal css reset he recommends (avoid 'Normalize' css resets wherever possible.)*/
 * { margin:0; padding:0; box-sizing: border-box; }
-/*
-font-family: 'Libre Baskerville', serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto Slab', serif;
-*/
 body {
 	background-color: #F7F7F7;
 	color: #2E2E2E;
-	font-size:18px;
+	font-size:20px;
 }
 header {
 	padding: 1em 0 0 0;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 header#splash {
 	background-image: url("../images/cat-getting-care.png");
@@ -46,7 +40,6 @@ section#newPatients {
 section#services {
 	margin: 0 0 2em 0;
 	padding: 0;
-	width: 33%;
 	background-color: rgba(255,255,255,0);
 }
 section#contactUs {
@@ -57,7 +50,7 @@ section#contactUs {
 	float: left;
 }
 h1 {
-	margin: .5em auto .5em auto;
+	margin: .5em auto .25em auto;
 	line-height:.65em;
 	background-color: rgba(255,255,255,0);
 	color:#1CCC69;
@@ -65,19 +58,22 @@ h1 {
 	font-size:6.72em;
 }
 h1 span {
-	font-family: 'Open Sans', sans-serif;
-	font-size:.65em;
+	font-family: 'Montserrat', sans-serif;
+	font-size:.64em;
 }
 h2 {
+	font-family: 'Montserrat', serif;
 	margin-top: .5em;
 	margin-bottom: .5em;
 	color:#439968;
 	font-size: 3.36em;
 }
 h3 {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1.4em;
 }
 h4 {
+	font-family: 'Libre Baskerville', serif;
 	margin: 1.2em 0 1.2em 0;
 	font-size: 1.4em;
 	line-height: 1.4em;
@@ -87,19 +83,19 @@ img {
 	width: 50%;
 }
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.4em;
 }
 p#slogan {
 	margin: .5em auto .5em auto;
-	width:16em;
+	width:18em;
 	color:#F7F7F7;
 	font-size:1.6em;
 	line-height: 1em;
 }
 ul {
 	list-style: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 li {
 	margin-bottom: 1.6em;
@@ -128,9 +124,6 @@ nav p {
 	float: right;
 	color: #F7F7F7;
 	font-size: 1.4em;
-}
-.columns {
-	width:33.33%;
 }
 .clearfix:after { 
    content: "."; 

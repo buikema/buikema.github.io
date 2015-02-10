@@ -8,7 +8,7 @@ body {
 header {
 	padding: 1em 0 0 0;
 	text-align: center;
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 header#splash {
 	background-image: url("../images/cat-getting-care.png");
@@ -51,29 +51,29 @@ section#contactUs {
 }
 h1 {
 	margin: .5em auto .25em auto;
-	line-height:.6em;
+	line-height:.65em;
 	background-color: rgba(255,255,255,0);
 	color:#1CCC69;
-	font-family: 'Rokkitt', serif;
-	font-size:8.4em;
+	font-family: 'Libre Baskerville', serif;
+	font-size:6.72em;
 }
 h1 span {
-	font-family: 'Quattrocento Sans', sans-serif;
-	font-size:.58em;
+	font-family: 'Montserrat', sans-serif;
+	font-size:.64em;
 }
 h2 {
-	font-family: 'Rokkitt', serif;
+	font-family: 'Montserrat', serif;
 	margin-top: .5em;
 	margin-bottom: .5em;
 	color:#439968;
 	font-size: 2.8em;
 }
 h3 {
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1.4em;
 }
 h4 {
-	font-family: 'Rokkitt', serif;
+	font-family: 'Libre Baskerville', serif;
 	margin: 1.2em 0 1.2em 0;
 	font-size: 1.4em;
 	line-height: 1.4em;
@@ -81,15 +81,13 @@ h4 {
 img {
 	padding-left: 2em;
 	width: 50%;
-
 }
 p {
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.4em;
-	width:25em;
 }
 p#slogan {
-	margin: .5em auto .75em auto;
+	margin: .5em auto .5em auto;
 	width:17em;
 	color:#F7F7F7;
 	font-size:1.4em;
@@ -97,7 +95,7 @@ p#slogan {
 }
 ul {
 	list-style: none;
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 li {
 	margin-bottom: 1.6em;
@@ -115,7 +113,6 @@ nav ul {
 nav li {
 	margin-right:3em;
 	display: inline;
-	font-size: 1.2em;
 }
 nav a {
 	text-decoration: none;
@@ -125,7 +122,6 @@ nav p {
 	margin-right:1em;
 	float: right;
 	color: #F7F7F7;
-	font-size: 1.2em;
 }
 .clearfix:after { 
    content: "."; 

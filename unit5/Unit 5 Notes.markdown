@@ -14,8 +14,8 @@ This website [http://millpondanimalhospital.com](http://millpondanimalhospital.c
 Greens and blues, to a lesser extent, have been the traditional colors. The current website is very bright and colorful. Many gradients and overly busy design make the current site less clear. Simpler is better.
 
 ### Step 2: Identify Content
-Create a flow diagram in outline format of your website. Use the following questions as a guide: Include two to four pages; give each web page a content-appropriate name?
-What will be the purpose for each?
-What should each page contain? Will there be textual content? Or just images?
-Incorporate market research you conducted/the wireframes you developed in Unit 2 and the home page you designed in Unit 3.
-Use this document as a reference for setting up your content.
+#### Create a flow diagram in outline format of your website. Use the following questions as a guide: Include two to four pages; give each web page a content-appropriate name?
+#### What will be the purpose for each?
+#### What should each page contain? Will there be textual content? Or just images?
+#### Incorporate market research you conducted/the wireframes you developed in Unit 2 and the home page you designed in Unit 3.
+#### Use this document as a reference for setting up your content.

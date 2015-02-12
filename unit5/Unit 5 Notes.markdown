@@ -15,13 +15,11 @@ Greens and, to a lesser extent, blues have been the traditional colors. The curr
 
 ### Step 2: Identify Content
 #### Create a flow diagram in outline format of your website. Use the following questions as a guide: Include two to four pages; give each web page a content-appropriate name?
-Home
-New Patients
-Services/ Payments
-About Us/ Contact
+[Here](https://docs.google.com/spreadsheets/d/1QAbZrVP1rhHACjPLHe44LiEhxChW2mOdg-twTjp_uQk/edit?usp=sharing) is the spreadsheet outline for Mill Pond Animal Hospital. I’ve filled in lots of items that are included in current Mill Pond Hospital. Feel free to omit some items that don’t make sense or fit into the current project. Some items are in the ‘omit for now’ section. Don’t include them (I don’t know how to implement them in a website now.) They can be revisited as class progresses.
 #### What will be the purpose for each?
 #### What should each page contain? Will there be textual content? Or just images?
 All pages should have a mix of images and copy. Connecting with potential clients is important and images help.
 #### Incorporate market research you conducted/the wireframes you developed in Unit 2 and the home page you designed in Unit 3.
-#### Use this document as a reference for setting up your content.
 Wireframes for Mill Pond from Unit 2 are [here](https://github.com/swimmies4icarus/swimmies4icarus.github.io/tree/master/wireframes). The .vp files are the editable files. They were made in Justinmind Prototyper as I had a hard time getting started in Inkscape.
+#### Use this document as a reference for setting up your content.
+

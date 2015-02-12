@@ -2,15 +2,15 @@
 
 ## Mill Pond Animal Hospital
 ### Step 1: Define Your Audience/Tone*
-*Who will visit your site? What value does your website offer to its visitors?*
+#### Who will visit your site? What value does your website offer to its visitors?
 Potential clients use the site to find available services, what pets can be helped, and location/ contact info. Current clients need to be able to quickly find what they’re looking for and take action (like: make an appointment, emergency care, fill out forms, find payment options.) All clients will be local to the Pinckney, MI area. Prospective clients may be remote (moving into the area,) however it is too far from college campus for students to be potential clients.
-*What information has to be presented to your consumers to allow them to purchase your goods or services?*
+#### What information has to be presented to your consumers to allow them to purchase your goods or services?
 Most business still occurs over the phone and in the hospital so easy access to contact info is critical. Also it’s important clients understand what’s available at the hospital (24hr emergency care is not available.) Ideally the website is a means for people to get comfortable with the hospital, making it more likely they call or stop in when an issue with their pet arises.
-What can make you and/or your restaurant/business stand out against your competitors?
+#### What can make you and/or your restaurant/business stand out against your competitors?
 VetMatrix is the current host and provider for the site. Having a custom site (something starkly different than VetMatrix’s busy mess) alone makes the hospital stand out. Also it’s important Mill Pond Animal Hospital distinguish itself from animal clinics in the area (businesses that handle pet grooming and some basic health concerns.) A professional tone to the site would help in that direction.
-*How are your food or other products represented digitally?*
+#### How are your food or other products represented digitally?
 This website [http://millpondanimalhospital.com](http://millpondanimalhospital.com) and a [Facebook page](https://www.facebook.com/pages/Mill-Pond-Animal-Hospital/302034359813803). Very little digital engagement on a daily basis (work hours are spent on caring for animals.) 
-*What colors represent your restaurant/business?*
+#### What colors represent your restaurant/business?
 Greens and blues, to a lesser extent, have been the traditional colors. The current website is very bright and colorful. Many gradients and overly busy design make the current site less clear. Simpler is better.
 
 ### Step 2: Identify Content

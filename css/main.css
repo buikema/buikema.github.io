@@ -1,4 +1,3 @@
-/*Added during 1-on-1 with John. A minimal css reset he recommends (avoid 'Normalize' css resets wherever possible.)*/
 * { margin:0; padding:0; box-sizing: border-box; }
 body {
 	background-color: #F7F7F7;
@@ -11,7 +10,7 @@ header {
 	font-family: 'Montserrat', sans-serif;
 }
 header#splash {
-	background-image: url("../images/cat-getting-care.png");
+	background-image: url("../images/cat-getting-care.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -37,8 +36,11 @@ section#newPatients {
 	float: left;
 	background-color: rgba(255,255,255,0);
 }
-section#newPatients li{
+section#newPatients li {
 	max-width: 24em;
+}
+section#newPatients figure {
+	text-align: right;
 }
 section#services {
 	margin: 0 0 2em 0;

@@ -1,6 +1,101 @@
 * { margin:0; padding:0; box-sizing: border-box; }
 body {
-	background-color: #F7F7F7;
-	color: #2E2E2E;
+	line-height: 1.2;
 	font-size:18px;
+}
+#home {
+	background-image: url("../images/fifi.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+#home section {
+	margin: 0 auto 0 auto;
+	max-width: 1400px;
+
+}
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	float: right;
+	background-color: rgba(0,0,0,.25);
+	list-style: none;
+}
+header li {
+	text-decoration: none;
+	font-family: 'Poiret One', sans-serif;
+	font-weight: 300;
+}
+header a {
+	display: block;
+	margin: .5em;
+	text-decoration: none;
+	color: rgba(255,255,255,.9);
+}
+header a#logo {
+	margin: .5em 0 0 0;
+}
+nav ul{
+	margin-top: 5vh;
+	padding:.25em;
+	border-top-right-radius: 5px;	
+	border-bottom-right-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	float: left;
+/*	nav menu 'pallet' color
+	background-color: rgba(0,0,0,.1);*/
+	list-style: none;
+}
+nav li {
+	margin:.25em;
+	/*Possible typefaces Titles: Gotham Condensed Light, Poiret One, Signika, Oxygen
+	Body: Raleway, Oxygen, Gotham;*/
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+nav a {
+	display: block;
+	background-color: rgba(0,0,0,.1);
+	padding: 1em 2em;
+	border: 2px rgba(0,0,0,0) solid;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: rgba(0,0,0,.7);
+}
+nav a:hover {
+	background-color: rgba(0,0,0,.2);
+	text-decoration: underline;
+}
+.portfolio ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	list-style: none;
+}
+.portfolio a {
+	margin: .3em;
+	display: block;
+	/*blank porfolio images have been inserted for styling*/
+	background-image: url("../images/portfolio-blank.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 5px;
+	width: 16em;
+	height: 16em;
 }

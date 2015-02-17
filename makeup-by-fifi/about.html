@@ -5,26 +5,51 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<section>
+	<div class="container">
 		<header>
-			<a href="index.html"><img id="logo" src="images/mualogo-small.jpg"></a>
+			<a href="index.html"><img id="logo" src="images/mualogo-small.png"></a>
 			<!-- These need to be social icons at a later point. Also I don't have links to Fifi's social networks. -->
 			<ul class="social">
-				<li><a href="#" title="Instagram">Instagram</a></li>
-				<li><a href="#" title="Pintrest">Pintrest</a></li>
-				<li><a href="#" title="It's Facebook">Facebook</a></li>
+				<li><a href="http://instagram.com/mua_fifi" target="blank" title="Fifi on Instagram">Instagram</a></li>
+				<li><a href="https://www.facebook.com/makeupbyfifi" target="blank" title="It's Facebook">Facebook</a></li>
+				<li><a href="https://twitter.com/mua_fifi" target="blank" title="Fifi on Twitter">Twitter</a></li>
 			</ul>
 		</header>
 		<nav>
 			<ul>
-				<li><a href="index.html" title="Home Page">Home</a></li>
-				<li><a href="about.html" title="Your Event">Your Event</a></li>
-				<li><a href="portfolio.html" title="Portfolio of Work">Portfolio</a></li>
-				<li><a href="about.html" title="Client Testimonials">Testimonials</a></li>
-				<li><a href="about.html" title="My Story">My Story</a></li>
+				<li><a id="color1" href="index.html" title="Home Page">Home</a></li>
+				<li><a id="color2" href="portfolio.html#yourEvent" title="Your Event">Your Event</a></li>
+				<li><a id="color3" href="portfolio.html#weddings" title="Portfolio of Work">Portfolio</a></li>
+				<li><a id="color4" href="about.html#testimonials" title="Client Testimonials">Testimonials</a></li>
+				<li><a id="color5" href="about.html#bio" title="My Story">My Story</a></li>
 			</ul>
 		</nav>
-		<footer></footer>
-	</section>
+		<article>
+			<section class="bio">
+				<!-- local link from nav menu -->
+				<a id="bio"></a>
+				<h1>Behind The Brushes</h1>
+				<img src="images/fifi-portrait.jpg" alt="Head shot of Fifi from Instagram" title="Fifi Portrait">
+				<p><strong>When we think of the world of fashion</strong>, the first two things that come to mind are models and designers. Behind these people are the make up artists who play an important role as they enhance the model's beauty and complement the designer's creations. Fifi is one of the most sought after in the business by photographers, models and brides alike.</p>
+				<p>Fifi grew up in Dallas, Texas with Eritrean immigrant parents. Being exposed to different cultures provided her with unique perspectives and inspirations, which had a direct influence on her body of work. Since 2008, Fifi has worked as a freelance make-up artist for <a href="#">Estee Lauder</a> and <a href="#">MAC Cosmetics</a> and works closely with her team. She frequently styles models for advertisements and represents the company at beauty and fashion events.</p>
+			</section>
+			<section>
+				<!-- local link from nav menu -->
+				<a id="testimonials"></a>
+				<h2>Testimonials</h2>
+				<div  class="testimonials">
+					<p>She is able to make your nose smaller, cheeks thinner, get rid of anything you don't like, and highlight everything you love! Fifi works on her passion daily and has a vision to bring timeless glamour, worldly beauty and enhance the inner beauty of every woman. She uses only the finest make-up and tools in the business.<span>-Author of quote 1</span></p>
+					<p>She genuinely cares about her clients and goes above and beyond to ensure you feel beautiful and confident after a session in her makeup chair.<span>-Author of quote 2</span></p>
+				</div>
+			</section>
+			<section class="address">
+				<h2>Serving the greater DC area.</h2>
+				<p>Arlington, VA 22202<br>Phone: <span id="phone">202-643-4682</span></p>
+			</section>
+		</article>
+		<footer>
+			<p class="copy">Copyright &copy; 2008 Makeup by Fifi.</p><p class="dev">Powered by <a href="https://github.io" title="Free static site hosting at Github">Github Pages</a>. Built by <a href="http://github.com/swimmies4">Drew Buikema.</a></p>
+		</footer>
+	</div>
 </body>
 </html>

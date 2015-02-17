@@ -5,26 +5,43 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<section>
+	<div class="container">
 		<header>
-			<a href="index.html"><img id="logo" src="images/mualogo-small.jpg"></a>
+			<a href="index.html"><img id="logo" src="images/mualogo-small.png"></a>
 			<!-- These need to be social icons at a later point. Also I don't have links to Fifi's social networks. -->
 			<ul class="social">
-				<li><a href="#" title="Instagram">Instagram</a></li>
-				<li><a href="#" title="Pintrest">Pintrest</a></li>
-				<li><a href="#" title="It's Facebook">Facebook</a></li>
+				<li><a href="http://instagram.com/mua_fifi" target="blank" title="Fifi on Instagram">Instagram</a></li>
+				<li><a href="https://www.facebook.com/makeupbyfifi" target="blank" title="It's Facebook">Facebook</a></li>
+				<li><a href="https://twitter.com/mua_fifi" target="blank" title="Fifi on Twitter">Twitter</a></li>
 			</ul>
 		</header>
 		<nav>
 			<ul>
-				<li><a href="index.html" title="Home Page">Home</a></li>
-				<li><a href="about.html" title="Your Event">Your Event</a></li>
-				<li><a href="portfolio.html" title="Portfolio of Work">Portfolio</a></li>
-				<li><a href="about.html" title="Client Testimonials">Testimonials</a></li>
-				<li><a href="about.html" title="My Story">My Story</a></li>
+				<li><a id="color1" href="index.html" title="Home Page">Home</a></li>
+				<li><a id="color2" href="portfolio.html#yourEvent" title="Your Event">Your Event</a></li>
+				<li><a id="color3" href="portfolio.html#weddings" title="Portfolio of Work">Portfolio</a></li>
+				<li><a id="color4" href="about.html#testimonials" title="Client Testimonials">Testimonials</a></li>
+				<li><a id="color5" href="about.html#bio" title="My Story">My Story</a></li>
 			</ul>
 		</nav>
-		<footer></footer>
+		<section class="yourEvent">
+			<!-- local link from nav menu -->
+			<a id="yourEvent"></a>
+			<h2>Get started on your own event</h2>
+		</section>
+		<section class="weddings">
+			<!-- local link from nav menu -->
+			<a id="weddings"></a>
+			<h2>Weddings</h2>
+		</section>
+		<section class="events">
+			<!-- local link from nav menu -->
+			<a id="events"></a>
+			<h2>Events and Collaborations</h2>
+		</section>
+		<footer>
+			<p class="copy">Copyright &copy; 2008 Makeup by Fifi.</p><p class="dev">Powered by <a href="https://github.io" title="Free static site hosting at Github">Github Pages</a>. Built by <a href="http://github.com/swimmies4">Drew Buikema.</a></p>
+		</footer>
 	</section>
 </body>
 </html>

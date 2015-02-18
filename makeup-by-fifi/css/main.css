@@ -129,7 +129,7 @@ footer p{
 a {
 	text-decoration: none;
 }
-a:hover {
+a:hover, a:focus {
 	text-decoration: underline;
 }
 /*coloring for nav menu links*/

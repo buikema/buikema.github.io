@@ -15,7 +15,7 @@ h2 {
 	border-bottom: 2px black solid;
 }
 p {
-	margin: 0 3em 1em 3em;
+	margin: 0 3.2em 1em 3.2em;
 	font-size: 1.2em;
 	font-family: 'Garamond', sans-serif;
 	font-weight: 200;
@@ -25,7 +25,7 @@ section {
 }
 /*home page portfolio links styles*/
 section.bio img {
-	margin-right: 1.6em;
+	margin-right: 1.8em;
 	float: left;
 }
 section.portfolio {
@@ -64,7 +64,7 @@ header ul {
 	flex-direction: row;
 	justify-content: flex-end;
 	align-items: center;
-	float: right;
+		float: right;
 	list-style: none;
 	border-bottom: 1px black solid;
 }
@@ -74,18 +74,20 @@ header li {
 	font-weight: 300;
 }
 header a {
-	display: block;
+	display: inline-block;
 	margin: .5em;
 	color: rgba(0,0,0,.9);
 }
-nav ul{
+nav {
 	margin-top: 5vh;
 	padding:.25em;
+	float: left;
 	border-top-right-radius: 5px;	
 	border-bottom-right-radius: 5px;
+}
+nav ul{
 	display: flex;
 	flex-direction: column;
-	float: left;
 	list-style: none;
 }
 nav li {
@@ -133,19 +135,19 @@ a:hover, a:focus {
 	text-decoration: underline;
 }
 /*coloring for nav menu links*/
-a#color1:hover {
+a#color1:hover, a#color1:focus {
 	background-color: rgba(255,188,103,.8);
 }
-a#color2:hover {
+a#color2:hover, a#color2:focus {
 	background-color: rgba(229,120,133,.8);
 }
-a#color3:hover {
+a#color3:hover, a#color3:focus {
 	background-color: rgba(184,115,139,.8);
 }
-a#color4:hover {
+a#color4:hover, a#color4:focus {
 	background-color: rgba(197,174,229,.8);
 }
-a#color5:hover {
+a#color5:hover, a#color5:focus {
 	background-color: rgba(126,168,224,.8);
 }
 div.container {
@@ -169,6 +171,21 @@ div.testimonials span {
 	display: block;
 	text-align: right;
 	font-style: italic;
+}
+div.portfolio {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+div.columnLeft {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-end;
+}
+div.columnRight {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: flex-start;
 }
 .clearfix:after { 
    content: "."; 

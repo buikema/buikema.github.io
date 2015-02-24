@@ -9,7 +9,7 @@
 - No Instagram photos on the home page - communicates more professionalism
 
 ## Checklist for Makeup by Fifi
-- [ ] Change italics for testimonials
+- [x] Change italics for testimonials
 - [ ] Add an email to the address
 - [ ] Navigation system for the portfolio Weddings/ Events/ Collaborations
 - [ ] Add body copy for events section

@@ -6,38 +6,44 @@
 	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<header>
-		<a id="logo" href="index.html"><img src="images/mualogo-small.png" alt="Script Logo for Makeup by Fifi" title="Company Logo"></a>
-		<nav>
+	<div class="container">
+		<header>
+			<a href="index.html"><img id="logo" src="images/mualogo-small.png"></a>
+			<!-- These need to be social icons at a later point. Also I don't have links to Fifi's social networks. -->
+			<ul class="social">
+				<li><a href="http://instagram.com/mua_fifi" target="blank" title="Fifi on Instagram">Instagram</a></li>
+				<li><a href="https://www.facebook.com/makeupbyfifi" target="blank" title="It's Facebook">Facebook</a></li>
+				<li><a href="https://twitter.com/mua_fifi" target="blank" title="Fifi on Twitter">Twitter</a></li>
+			</ul>
+		</header>
+		<nav class="clearfix">
 			<ul>
-				<li><a href="about.html#yourEvent" title="Your Event">Your Event</a></li>
-				<li><a href="portfolio.html#weddings" title="Portfolio of Work">Portfolio</a></li>
-				<li><a href="about.html#testimonials" title="Client Testimonials">Testimonials</a></li>
-				<li><a href="about.html#bio" title="My Story">My Story</a></li>
-				<li class="social">
-					<a href="http://instagram.com/mua_fifi" target="blank" title="Fifi on Instagram">In</a>
-					<a href="https://www.facebook.com/makeupbyfifi" target="blank" title="It's Facebook">Fb</a>
-					<a href="https://twitter.com/mua_fifi" target="blank" title="Fifi on Twitter">Tw</a>
-				</li>
+				<li><a id="color1" href="index.html" title="Home Page">Home</a></li>
+				<li><a id="color2" href="portfolio.html#yourEvent" title="Your Event">Your Event</a></li>
+				<li><a id="color3" href="portfolio.html#weddings" title="Portfolio of Work">Portfolio</a></li>
+				<li><a id="color4" href="about.html#testimonials" title="Client Testimonials">Testimonials</a></li>
+				<li><a id="color5" href="about.html#bio" title="My Story">My Story</a></li>
 			</ul>
 		</nav>
-	</header>
-	<div class="container">
-		<section>
-			<h1>Portfolio of Work</h1>
-			<p>Find some insperation </p>
+		<article>
+			<section class="yourEvent">
+				<!-- local link from nav menu -->
+				<a id="yourEvent"></a>
+				<h2>Get started on your own event</h2>
+				<p></p>
+			</section>
 			<section class="weddings">
 				<!-- local link from nav menu -->
 				<a id="weddings"></a>
 				<h2>Weddings</h2>
 				<div class="portfolio">
-					<div class="portfolioColumnLeft">
+					<div class="columnLeft">
 						<img src="images/portfolio/portfolio-blank1x1.jpg" alt="Wedding photo of bride with totally awesome makeup done by Fifi." title="Wedding Photo">
 						<img src="images/portfolio/portfolio-blank4x4.jpg" alt="Wedding photo of bride with totally awesome makeup done by Fifi." title="Wedding Photo">
 						<img src="images/portfolio/portfolio-blank3x5.jpg" alt="Wedding photo of bride with totally awesome makeup done by Fifi." title="Wedding Photo">
 						<img src="images/portfolio/portfolio-blank4x4.jpg" alt="Wedding photo of bride with totally awesome makeup done by Fifi." title="Wedding Photo">
 					</div>
-					<div class="portfolioColumnRight">
+					<div class="columnRight">
 						<img src="images/portfolio/portfolio-blank5x3.jpg" alt="Wedding photo of bride with totally awesome makeup done by Fifi." title="Wedding Photo">
 						<img src="images/portfolio/portfolio-blank2x2.jpg" alt="Wedding photo of bride with totally awesome makeup done by Fifi." title="Wedding Photo">
 						<img src="images/portfolio/portfolio-blank2x2.jpg" alt="Wedding photo of bride with totally awesome makeup done by Fifi." title="Wedding Photo">
@@ -50,9 +56,9 @@
 				<a id="events"></a>
 				<h2>Events and Collaborations</h2>
 			</section>
-		</section>
+		</article>
 		<footer>
-			<p class="copy">Copyright &copy; 2008 Makeup by Fifi.</p><p class="dev">Website built by <a href="http://github.com/swimmies4icarus">Drew Buikema.</a></p>
+			<p class="copy">Copyright &copy; 2008 Makeup by Fifi.</p><p class="dev">Powered by <a href="https://github.io" title="Free static site hosting at Github">Github Pages</a>. Built by <a href="http://github.com/swimmies4icarus">Drew Buikema.</a></p>
 		</footer>
 	</div>
 </body>

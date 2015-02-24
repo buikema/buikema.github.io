@@ -25,22 +25,22 @@ section {
 }
 /*home page portfolio links styles*/
 section.bio img {
-	margin-right: 1.4em;
+	margin-right: 1.8em;
 	float: left;
 }
-section.homePortfolio {
+section.portfolio {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	background-color: transparent;
 }
-section.homePortfolio ul{
+section.portfolio ul{
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-around;
 	list-style: none;
 }
-section.homePortfolio a {
+section.portfolio a {
 	margin: .3em;
 	display: block;
 	/*blank porfolio images have been inserted for styling*/
@@ -53,17 +53,37 @@ section.homePortfolio a {
 	height: 16em;
 }
 header {
-	position: fixed;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: flex-start;
+	justify-content: space-between;
 	background-color: transparent;
-	float:left;
+}
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+		float: right;
+	list-style: none;
+	border-bottom: 1px black solid;
+}
+header li {
+	text-decoration: none;
+	font-family: 'Poiret One', sans-serif;
+	font-weight: 300;
+}
+header a {
+	display: inline-block;
+	margin: .5em;
+	color: rgba(0,0,0,.9);
 }
 nav {
 	margin-top: 5vh;
 	padding:.25em;
 	float: left;
+	border-top-right-radius: 5px;	
+	border-bottom-right-radius: 5px;
 }
 nav ul{
 	display: flex;
@@ -72,30 +92,27 @@ nav ul{
 }
 nav li {
 	margin:.25em;
-	border-radius: 5px;
+	/*Possible typefaces Titles: Gotham Condensed Light, Poiret One, Signika, Oxygen
+	Body: Raleway, Oxygen, Gotham;*/
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1em;
 }
 nav a {
 	display: block;
-	background-color: transparent;
-	padding: 1em;
+	background-color: rgba(0,0,0,.1);
+	padding: 1em 2em;
 	border: 2px rgba(0,0,0,0) solid;
-	/*Possible typefaces Titles: Gotham Condensed Light, Poiret One, Signika, Oxygen
-	Body: Raleway, Oxygen, Gotham;*/
-	line-height: 1em;
-	font-family: 'Poiret One', sans-serif;
-	font-weight: bold;
-	font-size: 1.6em;
+	border-radius: 5px;
+	font-size: 1.2em;
 	color: rgba(0,0,0,.7);
 }
-li.social {
+article {
+	margin: 2em 0;
+	padding: 0 2em;
 	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-}
-li.social a {
-	display: inline-block;
-	padding: 1em;
-	border-radius: 50%;
+	flex-flow: column nowrap;
 }
 footer {
 	margin: 2em 0 0 0;
@@ -107,8 +124,9 @@ footer {
 }
 footer p{
 	margin: 0 1em;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	font-size: 1em;
+	font-family: 'Railway', sans-serif;
+	font-weight: 200;
 }
 a {
 	text-decoration: none;
@@ -117,71 +135,57 @@ a:hover, a:focus {
 	text-decoration: underline;
 }
 /*coloring for nav menu links*/
-nav a:hover, nav a:focus {
-	text-decoration: none;
-}
-nav li:nth-child(1):hover, nav li:nth-child(1):focus {
+a#color1:hover, a#color1:focus {
 	background-color: rgba(255,188,103,.8);
 }
-nav li:nth-child(2):hover, nav li:nth-child(2):focus {
+a#color2:hover, a#color2:focus {
 	background-color: rgba(229,120,133,.8);
 }
-nav li:nth-child(3):hover, nav li:nth-child(3):focus {
+a#color3:hover, a#color3:focus {
 	background-color: rgba(184,115,139,.8);
 }
-nav li:nth-child(4):hover, nav li:nth-child(4):focus {
+a#color4:hover, a#color4:focus {
 	background-color: rgba(197,174,229,.8);
 }
-/*coloring for nav social links*/
-li.social a:nth-child(1):hover, li.social a:nth-child(1):focus {
+a#color5:hover, a#color5:focus {
 	background-color: rgba(126,168,224,.8);
 }
-li.social a:nth-child(2):hover, li.social a:nth-child(2):focus {
-	background-color: rgba(126,168,224,.5);
+div.container {
+	margin: 0 auto 0 auto;
+	max-width: 1400px;
 }
-li.social a:nth-child(3):hover, li.social a:nth-child(3):focus {
-	background-color: rgba(126,168,224,.2);
-}
-a#logo img {
-	width: 18em;
-}
-body#home {
+div#home {
 	background-image: url("../images/fifi.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	max-width: none;
 	height: 100vh;
 }
-div.container {
-	margin: 2em 10em 1em 20em;
+div.testimonials {
 	display: flex;
-	flex-flow: column nowrap;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+div.testimonials span {
+	display: block;
+	text-align: right;
+	font-style: italic;
 }
 div.portfolio {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 }
-div.portfolioColumnLeft {
+div.columnLeft {
 	display: flex;
 	flex-flow: column wrap;
 	align-items: flex-end;
 }
-div.portfolioColumnRight {
+div.columnRight {
 	display: flex;
 	flex-flow: column wrap;
 	align-items: flex-start;
-}
-div.testimonials {
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	font-style: italic;
-}
-div.testimonials span {
-	display: block;
-	text-align: right;
-	font-style: normal;
 }
 .clearfix:after { 
    content: "."; 

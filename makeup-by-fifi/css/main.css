@@ -16,7 +16,6 @@ h2 {
 }
 p {
 	margin: 0 3.2em 1em 3.2em;
-	font-size: 1.2em;
 	font-family: 'Garamond', sans-serif;
 	font-weight: 200;
 }
@@ -94,7 +93,7 @@ li.social {
 }
 li.social a {
 	display: inline-block;
-	padding: 1em;
+	padding: .5em;
 	border-radius: 50%;
 }
 footer {
@@ -182,6 +181,9 @@ div.testimonials span {
 	display: block;
 	text-align: right;
 	font-style: normal;
+}
+div.testimonials p:first-child {
+	margin: 0 0 1em 3.2em;
 }
 .clearfix:after { 
    content: "."; 

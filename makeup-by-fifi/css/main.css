@@ -97,6 +97,9 @@ li.social a {
 	padding: .5em;
 	border-radius: 50%;
 }
+li.social img {
+	width: 1em;
+}
 footer {
 	margin: 2em 0 0 0;
 	padding: 0 2em 1em 2em;

@@ -17,12 +17,12 @@
 - [x] Find social icons with thin lines
 - [x] change nav menu button to plain text
 - [x] add role =“navigation” to nav menu
-- [ ] change spacing for nav menu
-- [ ] update styles to avoid classes (use nth child special selector)
+- [x] change spacing for nav menu
+- [x] update styles to avoid classes (use nth child special selector)
 - [ ] add a readme.md to home directory of project
 - [ ] ? instagram section on portfolio
 - [ ] add typeface for footer to links section
-- [ ] shrink font-size for <p>
+- [x] shrink font-size for <p>
 
 ## Body Copy
 Hello Beautiful

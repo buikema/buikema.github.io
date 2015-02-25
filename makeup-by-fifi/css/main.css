@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing: border-box; }
 body {
 	background-color: rgba(250,250,250,1);
-	line-height: 1.6;
+	line-height: 1.5;
 	font-size:18px;
 }
 h1 {
@@ -16,8 +16,9 @@ h2 {
 }
 p {
 	margin: 0 3.2em 1em 3.2em;
-	font-family: 'Garamond', sans-serif;
-	font-weight: 200;
+	font-family: 'Garamond', 'Times New Roman', serif;
+	font-weight: 300;
+	font-size: 1.11em;
 }
 section {
 	font-family: 'Poiret One', sans-serif;
@@ -108,6 +109,7 @@ footer p{
 	margin: 0 1em;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	font-size: 1em;
 }
 a {
 	text-decoration: none;
@@ -152,7 +154,7 @@ body#home {
 	height: 100vh;
 }
 div.container {
-	margin: 2em 10em 1em 20em;
+	margin: 2em 8em 1em 20em;
 	display: flex;
 	flex-flow: column nowrap;
 }

@@ -42,6 +42,7 @@ section.homePortfolio ul{
 }
 section.homePortfolio a {
 	margin: .3em;
+	padding: 1em;
 	display: block;
 	/*blank porfolio images have been inserted for styling*/
 	background-image: url("../images/portfolio/portfolio-blank4x4.jpg");
@@ -49,8 +50,10 @@ section.homePortfolio a {
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 5px;
-	width: 16em;
-	height: 16em;
+	width: 12em;
+	height: 12em;
+	font-size: 1.4em;
+	text-decoration: none;
 }
 header {
 	position: fixed;

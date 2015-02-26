@@ -10,7 +10,7 @@
 
 ## Checklist for Makeup by Fifi
 - [x] Change italics for testimonials
-- [ ] Add an email to the address
+- [ ] Add an email to the address section
 - [ ] Navigation system for the portfolio Weddings/ Events/ Collaborations
 - [ ] Add body copy for events section
 - [ ] Header copy for home page photos
@@ -25,6 +25,10 @@
 - [x] shrink font-size for <p>
 
 ## Body Copy
-Hello Beautiful
+A focus on weddings
 
-Get started on your event
+Partnering with creative professionals
+
+Adding emphasis to your event
+
+Find some inspiration in a range of Fifi's past work. 

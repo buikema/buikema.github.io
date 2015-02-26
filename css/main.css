@@ -16,43 +16,39 @@ header#splash {
 	background-attachment: fixed;
 	background-position: center;
 }
-div {
+div.container {
 	margin: 0 auto 0 auto;
 	background-color: rgba(0,0,0,.1);
 	max-width: 1200px;
-}
-section {
-	margin: 2em auto 2em auto;
-	padding: 1em 4em 1em 4em;
 }
 section#title {
 	margin: 20% auto 0 auto;
 	background-color: rgba(0,0,0,0);
 }
-section#newPatients {
-	margin: 0;
-	padding: 0 2em 0 0;
-	width: 50%;
-	float: left;
+section.newPatients {
+	margin: 2em;
+	padding: 2em 0;
+	display: flex;
+	flex-flow: row, wrap;
+	justify-content: center;
 	background-color: rgba(255,255,255,0);
 }
-section#newPatients li {
-	max-width: 24em;
-}
-section#newPatients figure {
-	
-}
-section#services {
-	margin: 0 0 2em 0;
-	padding: 0;
+section.services {
+	margin: 1em 2em;
 	background-color: rgba(255,255,255,0);
 }
-section#contactUs {
-	margin: 0;
-	padding: 0 2em 0 0;
-	width: 50%;
+section.services div {
+	display: flex;
+	flex-flow: row, wrap;
+	justify-content: space-around;
+}
+section.contactUs {
+	margin: 2em;
+	padding: 2em 0;
+	display: flex;
+	flex-flow: row, wrap;
+	justify-content: center;
 	background-color: rgba(255,255,255,0);
-	float: left;
 }
 h1 {
 	margin: .5em auto .25em auto;
@@ -80,12 +76,11 @@ h3 {
 h4 {
 	font-family: 'Libre Baskerville', serif;
 	margin: 1.2em 0 1.2em 0;
-	font-size: 1.4em;
+	font-size: 1em;
 	line-height: 1.4em;
 }
 img {
-	padding-left: 2em;
-	width: 50%;
+	width: 100%
 }
 p {
 	font-family: 'Montserrat', sans-serif;
@@ -93,6 +88,7 @@ p {
 }
 p#slogan {
 	margin: .5em auto .5em auto;
+	padding-bottom: 2em;
 	width:17em;
 	color:#F7F7F7;
 	font-size:1.4em;

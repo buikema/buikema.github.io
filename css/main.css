@@ -40,7 +40,10 @@ section.services {
 section.services div {
 	display: flex;
 	flex-flow: row, wrap;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+section.services + section.services {
+	margin-left: .5em;
 }
 section.contactUs {
 	margin: 2em;
@@ -123,6 +126,20 @@ nav p {
 	margin-right:1em;
 	float: right;
 	color: #F7F7F7;
+}
+footer {
+	margin: 2em 0 0 0;
+	padding: 0 2em 1em 2em;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	text-align: center;
+}
+footer p{
+	margin: 0 1em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
 }
 .clearfix:after { 
    content: "."; 

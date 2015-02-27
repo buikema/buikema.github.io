@@ -40,12 +40,21 @@ section.homePortfolio ul{
 	justify-content: space-around;
 	list-style: none;
 }
-section.homePortfolio a {
+section.homePortfolio li:nth-child(1) {
+	background-image: url("../images/portfolio/portfolio-blank4x4.jpg");
+}
+section.homePortfolio li:nth-child(2) {
+	background-image: url("../images/portfolio/portfolio-blank4x4.jpg");
+}
+section.homePortfolio li:nth-child(3) {
+	background-image: url("../images/portfolio/portfolio-blank4x4.jpg");
+}
+section.homePortfolio li {
 	margin: .3em;
+}
+section.homePortfolio a {
 	padding: 1em;
 	display: block;
-	/*blank porfolio images have been inserted for styling*/
-	background-image: url("../images/portfolio/portfolio-blank4x4.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -150,14 +159,15 @@ li.social a:nth-child(3):hover, li.social a:nth-child(3):focus {
 	background-color: rgba(126,168,224,.2);
 }
 a#logo img {
-	width: 18em;
+	width: 14em;
+	margin-left: 2em;
 }
 body#home {
 	background-image: url("../images/fifi.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 100vh;
+	height: 95vh;
 }
 div.container {
 	margin: 2em 8em 1em 20em;

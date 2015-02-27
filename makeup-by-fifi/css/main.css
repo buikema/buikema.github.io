@@ -24,6 +24,9 @@ section {
 	font-family: 'Poiret One', sans-serif;
 }
 /*home page portfolio links styles*/
+section.bio p {
+	max-width: 42em;
+}
 section.bio img {
 	margin-right: 1.4em;
 	float: left;
@@ -41,19 +44,19 @@ section.homePortfolio ul{
 	list-style: none;
 }
 section.homePortfolio li:nth-child(1) {
-	background-image: url("../images/portfolio/portfolio-blank4x4.jpg");
+	background-image: url("../images/portfolio/wedding/smiling-bride-400x400.jpg");
 }
 section.homePortfolio li:nth-child(2) {
-	background-image: url("../images/portfolio/portfolio-blank4x4.jpg");
+	background-image: url("../images/portfolio/tools/pallet-400x400.jpg");
 }
 section.homePortfolio li:nth-child(3) {
-	background-image: url("../images/portfolio/portfolio-blank4x4.jpg");
+	background-image: url("../images/portfolio/events/hands-on-400x400.jpg");
 }
 section.homePortfolio li {
 	margin: .3em;
 }
 section.homePortfolio a {
-	padding: 1em;
+	padding: 1.4em;
 	display: block;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -170,7 +173,7 @@ body#home {
 	height: 95vh;
 }
 div.container {
-	margin: 2em 8em 1em 20em;
+	margin: 2em 4em 1em 18em;
 	display: flex;
 	flex-flow: column nowrap;
 }

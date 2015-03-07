@@ -1,5 +1,5 @@
 # Feedback Notes and Checklist
-*Conversation on 2/21/15*
+*Conversation with Brukie on 2/21/15*
 - Email added to address section
 - possibly add a form for better organization of inquiries
 - make social media links more visual - simple iconography
@@ -11,9 +11,9 @@
 ## Checklist for Makeup by Fifi
 - [x] Change italics for testimonials
 - [x] Add an email to the address section
-- [ ] Navigation system for the portfolio Weddings/ Events/ Collaborations
+- [x] Navigation system for the portfolio Weddings/ Events/ Collaborations
 - [x] Add body copy for events section
-- [ ] Header copy for home page photos
+- [x] Header copy for home page photos
 - [x] add photos to home page portfolio
 - [x] Find social icons with thin lines
 - [x] change nav menu button to plain text

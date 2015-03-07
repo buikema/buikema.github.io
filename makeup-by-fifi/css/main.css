@@ -23,10 +23,10 @@ p {
 section {
 	font-family: 'Poiret One', sans-serif;
 }
-/*home page portfolio links styles*/
-section.bio p {
-	max-width: 42em;
+section p {
+	max-width: 45em;
 }
+/*home page portfolio links styles*/
 section.bio img {
 	margin-right: 1.4em;
 	float: left;
@@ -94,13 +94,39 @@ nav a {
 	background-color: transparent;
 	padding: 1em;
 	border: 2px rgba(0,0,0,0) solid;
-	/*Possible typefaces Titles: Gotham Condensed Light, Poiret One, Signika, Oxygen
-	Body: Raleway, Oxygen, Gotham;*/
 	line-height: 1em;
 	font-family: 'Poiret One', sans-serif;
 	font-weight: bold;
 	font-size: 1.6em;
 	color: rgba(0,0,0,.7);
+}
+section.portfolioNav {
+	margin-top: -2em;
+	padding-top: 2em;
+	position: fixed;
+	width: 100%;
+	background-color: rgba(250,250,250,1);
+}
+ul.portfolioNav {
+	margin: 2em 0 0 0;
+	display:flex;
+	border-bottom: 2px black solid;
+	list-style: none;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+ul.portfolioNav li {
+	padding-right: 1em;
+}
+ul.portfolioNav a {
+	font-size: 2em;
+	color: rgba(0,0,0,1);
+}
+ul.portfolioNav a:hover, ul#portfolioNav a:focus {
+	text-decoration: none;
+}
+ul.portfolioNav a:active {
+	text-decoration: underline;
 }
 li.social {
 	display: flex;
@@ -131,6 +157,7 @@ footer p{
 }
 a {
 	text-decoration: none;
+	color: rgba(184,115,139,1);
 }
 a:hover, a:focus {
 	text-decoration: underline;
@@ -176,6 +203,26 @@ div.container {
 	margin: 2em 4em 1em 18em;
 	display: flex;
 	flex-flow: column nowrap;
+}
+a#weddings {
+	display: block;
+	padding-bottom: 15em;
+}
+a#events {
+	display: block;
+	margin-top: -15em;
+	padding-bottom: 15em;
+
+}
+a#collaborations {
+	display: block;
+	padding-bottom: 15em;
+
+}
+a#instagram {
+	display: block;
+	padding-bottom: 15em;
+
 }
 div.portfolio {
 	display: flex;

@@ -10,11 +10,11 @@
 
 ## Checklist for Makeup by Fifi
 - [x] Change italics for testimonials
-- [ ] Add an email to the address section
+- [x] Add an email to the address section
 - [ ] Navigation system for the portfolio Weddings/ Events/ Collaborations
-- [ ] Add body copy for events section
+- [x] Add body copy for events section
 - [ ] Header copy for home page photos
-- [ ] add photos to home page portfolio
+- [x] add photos to home page portfolio
 - [x] Find social icons with thin lines
 - [x] change nav menu button to plain text
 - [x] add role =“navigation” to nav menu

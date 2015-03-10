@@ -36,7 +36,6 @@ section.homeViewer {
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	background-color: transparent;
 }
 section.homeViewer ul{
 	display: flex;
@@ -62,12 +61,16 @@ section.homeViewer a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-color: rgba(255,255,255,.4);
 	border-radius: 5px;
 	width: 12em;
 	height: 12em;
 	font-size: 1.4em;
 	font-weight: bold;
 	text-decoration: none;
+}
+section.homeViewer a:hover {
+
 }
 header {
 	position: fixed;

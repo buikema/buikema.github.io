@@ -11,7 +11,7 @@ I think type was one of the things I most struggled with. Being able to be criti
 After class critiques, many talked about the tone of my site. Warming up the tone is definitely something I worked on after that session.
 
 *Which struggles did you encounter during page development?*
-Getting floats and layout between text, unordered lists, and images to work correctly was the most challenging. I tried in some places to move to flex-box for layout with css and found that to be a much more understandable solution. 
+Getting floats and layout between text, unordered lists, and images to work correctly was the most challenging. I tried in some places to move to flex-box for layout with css and found that to be a much more understandable solution. However, there were some scenarios with multiple columns where flex-box broke symmetries in the layout.
 
 *What did you learn from making your project responsive?*
 I’m still catching up in projects, but I don’t think we’ve done that yet.

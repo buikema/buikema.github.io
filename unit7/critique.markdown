@@ -18,4 +18,8 @@ I’m still catching up in projects, but I don’t think we’ve done that yet.
 
 ## Step 2
 [Squarespace](http://squarespace.com/home/overview/)
-There is something incredibly compelling about Squarespace home pages ([Dreaming with Jeff ](http://squarespace.com/home/dreamingwithjeff/)is pretty great too.) I think it comes from their use of type and whitespace. 
+There is something incredibly compelling about Squarespace home pages ([Dreaming with Jeff](http://squarespace.com/home/dreamingwithjeff/) is pretty great too.) I think it comes primarily from their use of type and whitespace.
+Layout
+Typography
+Navigation
+Overall Flow

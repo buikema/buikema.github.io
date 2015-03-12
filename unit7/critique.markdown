@@ -17,9 +17,17 @@ Getting floats and layout between text, unordered lists, and images to work corr
 I’m still catching up in projects, but I don’t think we’ve done that yet.
 
 ## Step 2
-[Squarespace](http://squarespace.com/home/overview/)
-There is something incredibly compelling about Squarespace home pages ([Dreaming with Jeff](http://squarespace.com/home/dreamingwithjeff/) is pretty great too.) I think it comes primarily from their use of type and whitespace.
-Layout
-Typography
-Navigation
-Overall Flow
+### [Squarespace](http://squarespace.com/home/overview/)
+There is something very compelling about Squarespace home pages ([Dreaming with Jeff](http://squarespace.com/home/dreamingwithjeff/) is pretty great too.) I think it comes primarily from their use of type and whitespace.
+#### Typography
+The site universally uses various treatments on the sans-serif Gotham. Bolds, caps, and black vs grey text creates the hierarchy between navs, titles, calls to action, and body copy. The thin, very large, call to action text is eye catching, but open and airy. That is consistent with the copious amounts of white space throughout the page.
+#### Navigation
+
+#### Layout
+#### Overall Flow
+
+### [SpaceJam](http://www2.warnerbros.com/spacejam/movie/jam.htm)
+#### Typography
+#### Navigation
+#### Layout
+#### Overall Flow

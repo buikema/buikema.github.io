@@ -22,12 +22,15 @@ There is something very compelling about Squarespace home pages ([Dreaming with 
 #### Typography
 The site universally uses various treatments on the sans-serif Gotham. Bolds, caps, and black vs grey text creates the hierarchy between navs, titles, calls to action, and body copy. The thin, very large, call to action text is eye catching, but open and airy. That is consistent with the copious amounts of white space throughout the page.
 #### Navigation
-
+The nav is centered at the top of the page and gets out of the way quickly with a scroll. I think a decision made for a clean look. One problem is that accessing the menu requires clicking the SS logo in the upper left, something not entirely intuitive and at times hidden by black backgrounds.
 #### Layout
+The layout is set up vertically as a long scrolling page images and text periodically fades in and out as scroll effects. One thing I question is all images are example Squarespace websites, however, in order get the desired visual effects some images are img elements and others are background images. This must affect the accessibility of the site.
 #### Overall Flow
+Focal point is emphasized by keeping things in the viewport very simple, example website image and copy describing features. Flow moves from side as the user scrolls down the page. Tall, thin call-to-action text contrasts other copy and draws attention well. Elements often move and fade at discordant rates which is visually distracting and breaks continuity.
 
 ### [SpaceJam](http://www2.warnerbros.com/spacejam/movie/jam.htm)
 #### Typography
+
 #### Navigation
 #### Layout
 #### Overall Flow

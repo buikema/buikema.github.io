@@ -30,7 +30,10 @@ Focal point is emphasized by keeping things in the viewport very simple, example
 
 ### [SpaceJam](http://www2.warnerbros.com/spacejam/movie/jam.htm)
 #### Typography
-
+The only actual type on the page is in the legal statement and copyright information at the bottom of the page. The red color used is attention grabbing in a way that is odd considering the information. Text from the main part of the page is contained within images for the menu. It’s yellow and in caps. There is virtually no hierarchy within the type.
 #### Navigation
+A navigation menu is basically the entire webpage. No context is provided for the various menu items, but perhaps kids (the target user) are more engaged by spaceship and planet images than thoughtfully worded copy.
 #### Layout
+The SpaceJam logo is the sun and website features (menu options) are planets orbiting around. Brightly colored images create a fun look to the features. The starry night background is a bit busy (something exaggerated on large high res screens,) but it conveys the intended message of a solar system.
 #### Overall Flow
+The “orbit” layout of menu items creates exploration from users. A lack of hierarchy presumably means any path is equally desirable for the user and website.

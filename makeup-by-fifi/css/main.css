@@ -61,7 +61,6 @@ section.homeViewer a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: rgba(255,255,255,.4);
 	border-radius: 5px;
 	width: 12em;
 	height: 12em;
@@ -69,8 +68,8 @@ section.homeViewer a {
 	font-weight: bold;
 	text-decoration: none;
 }
-section.homeViewer a:hover {
-
+section.homeViewer li:hover {
+	background-color: rgba(255,255,255,.2);
 }
 header {
 	position: fixed;

@@ -18,7 +18,7 @@ header#splash {
 }
 div.container {
 	margin: 0 auto 0 auto;
-	background-color: rgba(0,0,0,.1);
+	background-color: rgba(0,0,0,.05);
 	max-width: 1200px;
 }
 section#title {

@@ -18,6 +18,8 @@ header#splash {
 }
 div.container {
 	margin: 0 auto 0 auto;
+	display: flex;
+	flex-flow: column nowrap;
 	background-color: rgba(0,0,0,.05);
 	max-width: 1200px;
 }
@@ -28,29 +30,31 @@ section#title {
 section.main {
 	margin: 2em;
 }
-section.newPatients {
-	padding: 2em 0;
-	display: flex;
-	flex-flow: row, wrap;
-	justify-content: center;
-	background-color: rgba(255,255,255,0);
+section.main > section {
+	margin: auto 2em auto 0;
+	width: 32em;
 }
-section.services {
+section.newPatients {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
 	background-color: rgba(255,255,255,0);
 }
 section.services div {
 	display: flex;
-	flex-flow: row, wrap;
+	flex-flow: row nowrap;
 	justify-content: space-between;
 }
-section.services + section.services {
-	margin-left: .5em;
+section.servicesItem {
+	max-width: 24em;
+}
+section.servicesItem + section.servicesItem {
+	margin-left: 1em;
 }
 section.contactUs {
-	padding: 2em 0;
 	display: flex;
-	flex-flow: row, wrap;
-	justify-content: center;
+	flex-flow: row nowrap;
+	justify-content: space-between;
 	background-color: rgba(255,255,255,0);
 }
 h1 {
@@ -67,7 +71,6 @@ h1 span {
 }
 h2 {
 	font-family: 'Montserrat', serif;
-	margin-top: .5em;
 	margin-bottom: .5em;
 	color:#439968;
 	font-size: 2.8em;
@@ -84,6 +87,9 @@ h4 {
 }
 img {
 	width: 100%
+}
+section figure {
+	width: 24em;
 }
 p {
 	font-family: 'Montserrat', sans-serif;

@@ -25,8 +25,10 @@ section#title {
 	margin: 20% auto 0 auto;
 	background-color: rgba(0,0,0,0);
 }
-section.newPatients {
+section.main {
 	margin: 2em;
+}
+section.newPatients {
 	padding: 2em 0;
 	display: flex;
 	flex-flow: row, wrap;
@@ -34,7 +36,6 @@ section.newPatients {
 	background-color: rgba(255,255,255,0);
 }
 section.services {
-	margin: 1em 2em;
 	background-color: rgba(255,255,255,0);
 }
 section.services div {
@@ -46,7 +47,6 @@ section.services + section.services {
 	margin-left: .5em;
 }
 section.contactUs {
-	margin: 2em;
 	padding: 2em 0;
 	display: flex;
 	flex-flow: row, wrap;

@@ -1,7 +1,7 @@
-* { margin:0; padding:0; box-sizing: border-box; }
+* { margin:0; padding:0; box-sizing: border-box;}
 body {
-	background-color: #F7F7F7;
-	color: #2E2E2E;
+/*	background-color: #F7F7F7;
+*/	color: #2E2E2E;
 	font-size:18px;
 }
 header {
@@ -10,6 +10,7 @@ header {
 	font-family: 'Montserrat', sans-serif;
 }
 header#splash {
+	height: 75vh;
 	background-image: url("../images/bunny-in-color.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -24,7 +25,7 @@ div.container {
 	max-width: 1200px;
 }
 section#title {
-	margin: 20% auto 0 auto;
+	margin: 12em auto 0 auto;
 }
 section.main {
 	margin: 2em;
@@ -60,7 +61,8 @@ h1 {
 	background-color: rgba(255,255,255,0);
 	color:#1CCC69;
 	font-family: 'Libre Baskerville', serif;
-	font-size:6.72em;
+	font-size:9.5vw;
+	/*font-size:6.72em;*/
 }
 h1 span {
 	font-family: 'Montserrat', sans-serif;
@@ -109,16 +111,21 @@ li {
 }
 nav{
 	margin: 0 auto 0 auto;
-	padding: 1em 3em 1em 3em;
+	padding: 0 3em;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 	background-color: rgba(0,0,0,.3);
 	max-width: 1200px;
 }
 nav ul {
-	float:left;
 	margin: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
 }
 nav li {
-	margin-right:3em;
+	margin: 1em 3em 1em 0;
 	display: inline;
 }
 nav a {
@@ -126,13 +133,11 @@ nav a {
 	color: #F7F7F7;
 }
 nav p {
-	margin-right:1em;
-	float: right;
+	margin: 1em 0 1em auto;
 	color: #F7F7F7;
 }
 footer {
-	margin: 2em 0 0 0;
-	padding: 0 2em 1em 2em;
+	margin: 1em 2em;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;

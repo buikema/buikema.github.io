@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing: border-box;}
 body {
-/*	background-color: #F7F7F7;
-*/	color: #2E2E2E;
+	background-color: #F7F7F7;
+	color: #2E2E2E;
 	font-size:18px;
 }
 header {
@@ -21,7 +21,6 @@ div.container {
 	margin: 0 auto 0 auto;
 	display: flex;
 	flex-flow: column nowrap;
-	background-color: rgba(0,0,0,.05);
 	max-width: 1200px;
 }
 section#title {
@@ -48,7 +47,7 @@ section.servicesItem {
 	max-width: 24em;
 }
 section.servicesItem + section.servicesItem {
-	margin-left: 1em;
+	margin-left: 2em;
 }
 section.contactUs {
 	display: flex;
@@ -61,7 +60,7 @@ h1 {
 	background-color: rgba(255,255,255,0);
 	color:#1CCC69;
 	font-family: 'Libre Baskerville', serif;
-	font-size:9.5vw;
+	font-size:6em;
 	/*font-size:6.72em;*/
 }
 h1 span {
@@ -137,10 +136,11 @@ nav p {
 	color: #F7F7F7;
 }
 footer {
-	margin: 1em 2em;
+	padding: 1em 2em;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	background-color: rgba(0,0,0,.1);
 	text-align: center;
 }
 footer p{

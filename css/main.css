@@ -86,6 +86,9 @@ h4 {
 img {
 	width: 100%
 }
+section.servicesItem img{
+	padding: 1em 4em;
+}
 section figure {
 	width: 24em;
 }

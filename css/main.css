@@ -12,10 +12,10 @@ header {
 header#splash {
 	height: 75vh;
 	background-image: url("../images/bunny-in-color.jpg");
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: initial;
 }
 div.container {
 	margin: 0 auto 0 auto;
@@ -69,9 +69,9 @@ h1 span {
 }
 h2 {
 	font-family: 'Montserrat', serif;
-	margin-bottom: .5em;
+	margin-bottom: 0.5em;
 	color:#439968;
-	font-size: 2.8em;
+	font-size: 3.2em;
 }
 h3 {
 	font-family: 'Montserrat', sans-serif;
@@ -79,15 +79,16 @@ h3 {
 }
 h4 {
 	font-family: 'Libre Baskerville', serif;
-	margin: 1.2em 0 1.2em 0;
+	margin: 1.6em 0;
 	font-size: 1em;
-	line-height: 1.4em;
+	line-height: 1.6em;
 }
 img {
 	width: 100%
 }
 section.servicesItem img{
-	padding: 1em 4em;
+	margin:1em auto 1em 0em;
+	width: 6em;
 }
 section figure {
 	width: 24em;
@@ -152,10 +153,10 @@ footer p{
 	font-weight: 300;
 	font-size: 1em;
 }
-.clearfix:after { 
+/*.clearfix:after { 
    content: "."; 
    visibility: hidden; 
    display: block; 
    height: 0; 
    clear: both;
-}
+}*/

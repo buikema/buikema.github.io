@@ -1,0 +1,112 @@
+* { margin:0; padding:0; box-sizing: border-box;}
+body {
+	background-color: rgb(250,250,250);
+	color: #212121;
+	font-size: 16px;
+}
+header  {
+	padding: 1em; 
+	background-color: rgb(255,223,81);
+	
+	/*Add background image for header
+	Need to create svg logo*/
+	background-image: "./images/background.png";
+}
+h1 {
+	font-size: 1.6em;
+}
+h1 span {
+	font-size: 0.8em;
+}
+ul {
+	list-style: none;
+}
+article {
+	margin: 0 1em;
+}
+section {
+	margin-bottom: 1em;
+}
+h2 {
+	margin-bottom: 0.8em;
+	padding-bottom:  0.4em;
+	border-bottom: 3px solid rgb(255,223,81);
+	font-size: 1.4em;
+}
+h3 {
+}
+p{
+	margin-bottom: 0.8em;
+}
+a {
+	text-decoration: none;
+	color: rgb(105,0,60);
+}
+a.hover {
+	text-decoration: underline;
+}
+/*styles and behavior for button to download HOA covenant PDF*/
+.covenant-download form {
+	text-align: center;
+}
+.covenant-download button {
+	padding: 1.2em 1.6em;
+	background-color: rgb(105,0,60);
+	border-radius: 0.5em;
+	border-style: none;
+}
+.covenant-download a {
+	color: rgb(250,250,250);
+	font-size: 1.4em;
+}
+.covenant-download button:hover {
+	border-style: 3px solid rgb(255,223,81);
+}
+.adobe-alert {
+	display: none;
+}
+
+footer {
+	padding: 1em;
+	background-color: rgb(225,225,225);
+	border-top: 3px solid #212121;
+	color: ;
+	font-size: .8em;
+}
+footer nav {
+	margin-bottom: 1em;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+footer ul {
+	display: flex;
+	flex-flow: column wrap;
+}
+footer li {
+	padding: 0.25em;
+}
+footer a {
+	font-style: italic;
+}
+
+/*styles and behavior for primary navigation list at top of page*/
+.main-nav ul {
+	margin: 1em 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.main-nav li {
+	margin: 0.3em 0.5em;
+	padding: 0.4em;
+	border-radius: .6em;
+	background-color: rgb(255,223,81);
+}
+.main-nav a {
+	color: #212121;
+}
+.main-nav li:hover {
+	border-radius: 0.5em;
+	background-color: rgb(255,209,0);
+}

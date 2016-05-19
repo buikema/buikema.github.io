@@ -6,7 +6,7 @@ body {
 }
 header  {
 	padding: 1em; 
-	background-color: rgb(255,223,81);
+	background-color: rgb(255,231,129);
 	
 	/*Add background image for header
 	Need to create svg logo*/
@@ -30,7 +30,7 @@ section {
 h2 {
 	margin-bottom: 0.8em;
 	padding-bottom:  0.4em;
-	border-bottom: 3px solid rgb(255,223,81);
+	border-bottom: 3px solid rgb(255,231,129);
 	font-size: 1.4em;
 }
 h3 {
@@ -60,10 +60,19 @@ a.hover {
 	font-size: 1.4em;
 }
 .covenant-download button:hover {
-	border-style: 3px solid rgb(255,223,81);
+	border-style: 3px solid rgb(255,231,129);
 }
 .adobe-alert {
 	display: none;
+}
+
+/*lettering and styles for dues citation*/
+.dues ul {
+	margin: 0 1em;
+	list-style: lower-latin;
+}
+.dues li {
+	margin-bottom: 0.4em;
 }
 
 footer {
@@ -100,7 +109,7 @@ footer a {
 	margin: 0.3em 0.5em;
 	padding: 0.4em;
 	border-radius: .6em;
-	background-color: rgb(255,223,81);
+	background-color: rgb(255,231,129);
 }
 .main-nav a {
 	color: #212121;
@@ -108,4 +117,30 @@ footer a {
 .main-nav li:hover {
 	border-radius: 0.5em;
 	background-color: rgb(255,209,0);
+}
+
+/*styles for devices in the tablet range*/
+@media screen and (min-width: 485px) {
+    .container {
+    	margin: 0 auto;
+    	max-width: 36em;
+    }
+}
+
+/*styles for devices in the tablet range*/
+@media screen and (min-width: 767px) {
+    body {
+    	font-size: 18px;
+    }
+    .dues ul {
+	margin: 0 2em;
+	}
+    footer {
+    	display: flex;
+    	justify-content: space-around;
+    }
+    footer nav {
+    	margin-left: 2em;
+    	justify-content: flex-start;
+    }
 }

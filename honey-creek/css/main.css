@@ -14,20 +14,25 @@ header  {
 	Need to create svg logo    
 	background-image: "./images/background.png";*/
 }
+
+/*Leading title styles*/
 h1 {
 	font-size: 1.6em;
 }
 h1 span {
 	font-size: 0.8em;
 }
-ul {
-	list-style: none;
-}
+
+/*General page styles*/
 article {
 	margin: 0 1em;
 }
 section {
-	margin-bottom: 1em;
+	margin-top: 2em;
+	margin-bottom: 3em;
+}
+section span {
+	font-style: italic;
 }
 h2 {
 	margin-bottom: 0.8em;
@@ -36,9 +41,17 @@ h2 {
 	font-size: 1.4em;
 }
 h3 {
+	margin-top: 1.4em;
+	margin-bottom: .8em;
 }
 p{
 	margin-bottom: 0.8em;
+	line-height: 1.2em;
+}
+img { 
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 a {
 	text-decoration: none;
@@ -47,6 +60,54 @@ a {
 a.hover {
 	text-decoration: underline;
 }
+figure {
+	display: flex;
+	justify-content: flex-start;
+	align-items: top;
+	min-width: 16em;
+}
+figcaption {
+	margin: 1em;
+}
+figcaption h3 {
+	margin-top: 0em;
+	margin-bottom: 0.6em;
+}
+figure img {
+	display: inline;
+	margin: 1em;
+	max-width: 4em;
+}
+ul {
+	list-style: none;
+}
+ol {
+	display: flex;
+	flex-flow: row wrap;
+	list-style: none;
+}
+
+/*styles and behavior for primary navigation list at top of page*/
+.main-nav ul {
+	margin: 1em 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.main-nav li {
+	margin: 0.3em 0.5em;
+	padding: 0.4em;
+	border-radius: .6em;
+	background-color: rgb(255,231,129);
+}
+.main-nav a {
+	color: #212121;
+}
+.main-nav li:hover {
+	border-radius: 0.5em;
+	background-color: rgb(255,209,0);
+}
+
 /*styles for welcome list*/
 .welcome li {
 	margin: 0 1em 1em 1em;
@@ -77,8 +138,24 @@ a.hover {
 }
 .dues li {
 	margin-bottom: 0.4em;
+	line-height: 1.2em;
 }
 
+/*styles for list of committees*/
+.committees {
+	margin: 1em 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+.committees li {
+	margin: 0.3em 0.3em;
+	padding: 0.3em;
+	border-radius: .6em;
+	background-color: rgb(225,225,225);
+}
+
+/*styles for footer section*/
 footer {
 	padding: 1em;
 	background-color: rgb(225,225,225);
@@ -88,39 +165,19 @@ footer {
 footer nav {
 	margin-bottom: 1em;
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 footer ul {
 	display: flex;
 	flex-flow: column wrap;
+	margin-right: 2em;
 }
 footer li {
 	padding: 0.25em;
 }
 footer a {
+	font-size: 1.1em;
 	font-style: italic;
-}
-
-/*styles and behavior for primary navigation list at top of page*/
-.main-nav ul {
-	margin: 1em 0;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-}
-.main-nav li {
-	margin: 0.3em 0.5em;
-	padding: 0.4em;
-	border-radius: .6em;
-	background-color: rgb(255,231,129);
-}
-.main-nav a {
-	color: #212121;
-}
-.main-nav li:hover {
-	border-radius: 0.5em;
-	background-color: rgb(255,209,0);
 }
 
 /*styles for devices in the tablet range*/
@@ -128,6 +185,14 @@ footer a {
     .container {
     	margin: 0 auto;
     	max-width: 36em;
+    }
+    footer {
+    	display: flex;
+    	justify-content: flex-start;
+    }
+    footer nav {
+    	margin-left: 2em;
+    	justify-content: flex-start;
     }
 }
 
@@ -139,12 +204,5 @@ footer a {
     .dues ul {
 	margin: 0 2em;
 	}
-    footer {
-    	display: flex;
-    	justify-content: space-around;
-    }
-    footer nav {
-    	margin-left: 2em;
-    	justify-content: flex-start;
-    }
+    
 }

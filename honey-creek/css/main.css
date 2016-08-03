@@ -180,6 +180,22 @@ ol {
 	line-height: 1.4em;
 }
 
+/*styles for google maps embeds*/
+.google-maps {
+	margin: 2em;
+	position: relative;
+	padding-bottom: 75%;  /*This is the aspect ratio*/
+	height: 0;
+	overflow: hidden;
+}
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
 /*styles for board members list*/
 .board ol {
 	display: flex;

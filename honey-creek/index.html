@@ -21,7 +21,7 @@
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="icon" sizes="192x192" href="nice-highres.png">
 	<link rel="apple-touch-startup-image" href="icon.png"> -->
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
 	<header>
@@ -42,7 +42,7 @@
 				<li><a href="#map">Map</a></li>
 				<li><a href="#schools">Schools</a></li>
 				<li><a href="#board">Board Members</a></li>
-				<li><a href="#commitees">Commitees</a></li>
+				<li><a href="#committees">Commitees</a></li>
 				<li><a href="#government">Local Government</a></li>
 			</ul>
 		</nav>
@@ -63,7 +63,7 @@
 					<a href="https://get.adobe.com/reader/">Download Adobe PDF Reader</a>
 				</div>
 			</section>
-			<section class="management"></section>
+			<section class="management">
 				<h2>Property Management</h2>
 				<p>Honey Creek Meadows is managed by</p>
 				<p><a href="http://www.epmimich.com/">Expert Property Management, Inc</a></p>
@@ -72,8 +72,10 @@
 				<p class="phone"><a href="tel:18777793764">877-779-EPMI</a> (Toll Free)<br>
 				<a href="tel:7346689928">734-668-9928</a> (Office)<br>
 				<a href="tel:7346689949">734-668-9949</a> (Fax)</p>
-				<p>Email: <a href="mailto:administrator@epmimich.com">administrator@epmimich.com</a><p>
+				<p>Email: <a href="mailto:administrator@epmimich.com">administrator@epmimich.com</a></p>
+			</section>
 			<section id="dues" class="dues">
+				<div><a href="#dues"></a></div>
 				<h2>Dues</h2>
 				<p>2016 dues are $140.00 and are payable to the Association by April 30th.</p>
 				<p>Make checks payable and mail them to:</p>
@@ -96,6 +98,7 @@
 				</aside>
 			</section>
 			<section id="events" class="events">
+				<div><a href="#events"></a></div>
 				<h2>Events</h2>
 				<h3>2016 Annual Meeting</h3>
 				<p>The annual homeowner's association meeting is always held on the last Monday in October. This year it will be in the Pinckney Library at <span>6:15pm on October 24, 2016</span>.</p>
@@ -110,6 +113,7 @@
 				9am - 5pm daily</p>
 			</section>
 			<section id="map" class="map">
+				<div><a href="#map"></a></div>
 				<h2>Find Honey Creek Meadows</h2>
 				<div class="google-maps">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4058.8719071910887!2d-83.93990079875746!3d42.44978523990171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1469648407792" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
@@ -118,9 +122,11 @@
 				<p>* Located just south of downtown Pinckney between Dexter-Pinckney Road and South Howell Street.</p>
 			</section>
 			<section id="schools" class="schools">
+				<div><a href="#schools"></a></div>
 				<h2>Area Schools</h2>
 			</section>
 			<section id="board" class="board">
+				<div><a href="#board"></a></div>
 				<h2>Board Members</h2>
 				<ol>
 					<li>
@@ -175,7 +181,8 @@
 						</figure>
 					</li>
 				</ol>
-				<p id="commitees">Interested in working on any of the committees listed below? Please direct an e-mail to any of the board members stating your interest.</p>
+				<div><a href="#committees"></a></div>
+				<p id="committees">Interested in working on any of the committees listed below? Please direct an e-mail to any of the board members stating your interest.</p>
 				<ul class="committees">
 					<li>Architectural</li>
 					<li>Annual Garage Sale</li>
@@ -189,8 +196,24 @@
 				</ul>
 			</section>
 			<section id="government" class="government">
+				<div><a href="#government"></a></div>
 				<h2>Local Government</h2>
-
+				<ul>
+					<li>
+						<div>
+							<h3>Village of Pinckney</h3>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h3>Putnam Township</h3>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h3>Livingston County</h3>
+						</div>
+					</li>
 			</section>
 		</article>
 		<footer>
@@ -199,7 +222,7 @@
 					<li><a href="#dues">Dues</a></li>
 					<li><a href="#schools">Schools</a></li>
 					<li><a href="#board">Board Members</a></li>
-					<li><a href="#commitees">Commitees</a></li>
+					<li><a href="#committees">Commitees</a></li>
 					<li><a href="#events">Events</a></li>
 				</ul>
 				<ul>
@@ -220,4 +243,30 @@
 		</footer>
 	</div>
 </body>
+<script>
+	$(document).ready(function(){
+	// Add smooth scrolling to all links
+	$("a").on('click', function(event) {
+
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+		// Prevent default anchor click behavior
+		event.preventDefault();
+
+		// Store hash
+		var hash = this.hash;
+
+		// Using jQuery's animate() method to add smooth page scroll
+		// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		$('html, body').animate({
+			scrollTop: $(hash).offset().top
+		}, 800, function(){
+	
+			// Add hash (#) to URL when done scrolling (default click behavior)
+			window.location.hash = hash;
+		});
+		} // End if
+	});
+	});
+</script>
 </html>

@@ -15,7 +15,7 @@ header  {
 
 /*Leading title styles*/
 h1 {
-	font-size: 2.4em;
+	font-size: 1.6em;
 	line-height: 1.2;
 	font-weight: 700;
 }
@@ -39,10 +39,9 @@ h2 {
 	margin-bottom: 0.8em;
 	padding-bottom:  0.4em;
 	border-bottom: 3px solid rgb(255,231,129);
-	font-size: 2.4em;
-	font-weight: 200;
+	font-size: 1.75em;
+	font-weight: 300;
 	letter-spacing: 0.5px;
-	line-height: 1.2;
 }
 h3 {
 	margin-top: 1.4em;
@@ -124,7 +123,7 @@ ol {
 	margin: 0.3em 0.5em;
 	padding: 0.4em;
 	border-radius: .6em;
-	background-color: rgba(255,231,129,.6);;
+	background-color: rgba(255,231,129,.6);
 }
 .main-nav li:hover,
 .main-nav li:focus {
@@ -143,7 +142,6 @@ ol {
 .main-nav a:focus:after {
 	display: none;
 }
-
 
 /*styles for welcome list*/
 .welcome li {
@@ -297,6 +295,19 @@ footer a {
 	header div {
 		background-position: 95% -4em, center;
 	}
+	h1 {
+		font-size: 2.4em;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+	h2 {
+		margin-bottom: 0.8em;
+		padding-bottom:  0.4em;
+		border-bottom: 3px solid rgb(255,231,129);
+		font-size: 2.4em;
+		font-weight: 200;
+		letter-spacing: 0.5px;
+	}
 	.board ol {
 		flex-flow: row wrap;
 	}
@@ -316,10 +327,8 @@ footer a {
 		margin: 0 2em;
 	}
 	
-	.covenant-download:visited {
-		.adobe-alert {
-			display: visible;
-		}
+	.adobe-alert:visited {
+		display: visible;
 	}
 }
 

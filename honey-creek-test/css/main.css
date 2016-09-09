@@ -2,19 +2,18 @@
 body {
 	background-color: rgb(250,250,250);
 	color: #212121;
-	font-size: 16px;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 
+ 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 	/*Firefox support only*/
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
 }
 header  {
-	padding: 1em; 
 	background-color: rgb(255,231,129);
 }
 
 /*Leading title styles*/
 h1 {
+	padding: 1rem;
 	font-size: 1.6em;
 	line-height: 1.2;
 	font-weight: 700;
@@ -26,7 +25,7 @@ h1 span {
 
 /*General page styles*/
 article {
-	margin: 0 1em;
+	margin: 0 1rem;
 }
 section {
 	margin-top: 1em;
@@ -40,7 +39,7 @@ h2 {
 	padding-bottom:  0.4em;
 	border-bottom: 3px solid rgb(255,231,129);
 	font-size: 1.75em;
-	font-weight: 300;
+	font-weight: 200;
 	letter-spacing: 0.5px;
 }
 h3 {
@@ -252,14 +251,14 @@ footer a {
 }
 
 /*styles for devices in the tablet range*/
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 27em) {
 	header {
 		background-color: rgba(255,231,129,.6);
 		transform: translateY(-1em) skewY(2deg);
 	}
 	header div {
 		margin: 0 auto;
-		padding: 3em 1em;
+		padding: 3em 0em;
     	width: 36em;
 		transform: skewY(-2deg);
 
@@ -291,9 +290,9 @@ footer a {
 	}
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 35.5em) {
 	header div {
-		background-position: 95% -4em, center;
+		background-position: 95% -2em, center;
 	}
 	h1 {
 		font-size: 2.4em;
@@ -317,7 +316,7 @@ footer a {
 }
 
 /*styles for devices in the tablet range*/
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 47.9em) {
     body {
     	font-size: 18px;
     }
@@ -328,12 +327,12 @@ footer a {
 	}
 	
 	.adobe-alert:visited {
-		display: visible;
+		display: block;
 	}
 }
 
 /*styles for large screens*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 75em) {
     body {
     	font-size: 20px;
 		line-height: 1.4em;

@@ -145,6 +145,7 @@ ol {
 /*styles for welcome list*/
 .welcome li {
 	margin: 0 1em 1em 1em;
+	list-style: square;
 }
 
 /*styles and behavior for link to download HOA covenant PDF*/
@@ -338,7 +339,7 @@ footer a {
 		line-height: 1.4em;
     }
 	header div {
-		background-position: 100% -5em, center;
+		background-position: 100% -3em, center;
 	}
     
 }

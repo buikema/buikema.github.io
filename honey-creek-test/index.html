@@ -25,6 +25,7 @@
 	<link rel="manifest" href="/manifest.json">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#fdeeb1">
 
+    <!--jquery script to allow smooth scrolling between same age links-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 </head>
@@ -83,7 +84,7 @@
 				Homeowners Association<br>
 				P.O. Box 803<br>
 				Pinckney, MI 48169</p>
-				<p><span>Invoices are due upon receipt but payable without penalty until April 30th</span>. Further details are available by reading the <a href="#0">HCMA By-Laws</a> in the Covenant.</p>
+				<p><span class="invoices">Invoices are due upon receipt but payable without penalty until April 30th</span>. Further details are available by reading the <a href="#0">HCMA By-Laws</a> in the Covenant.</p>
 				<aside>
 					<h3>What Are Dues Used For?</h3>
 					<p>Article XI. Section 4.
@@ -101,25 +102,27 @@
 				<div><a href="#events"></a></div>
 				<h2>Events</h2>
 				<h3>2016 Annual Meeting</h3>
-				<p>The annual homeowner's association meeting is always held on the last Monday in October. This year it will be in the Pinckney Library at <span>6:15pm on October 24, 2016</span>.</p>
+				<p>The annual homeowner's association meeting is always held on the last Monday in October. This year it will be in the Pinckney Library at <span class="dates">6:15pm on October 24, 2016</span>.</p>
 				<p>Pinckney Community Public Library<br>
 				125 Putnam Street<br>
 				Pinckney, MI 48169</p>
 				<p>Please make an effort to have at least one voting representative of your household present.  Click here for more Information</p>
 				<h3>Annual Garage Sales</h3>
-				<p>Friday & Saturday <span>June 17-18, 2016</span><br>
+				<p>Friday & Saturday <span class="dates">June 17-18, 2016</span><br>
 				9am - 5pm daily</p>
-				<p>Fridar & Saturday <span>Sept 16-17, 2016</span><br>
+				<p>Fridar & Saturday <span class="dates">Sept 16-17, 2016</span><br>
 				9am - 5pm daily</p>
 			</section>
 			<section id="map" class="map">
 				<div><a href="#map"></a></div>
 				<h2>Find Honey Creek Meadows</h2>
-				<div class="google-maps">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4058.8719071910887!2d-83.93990079875746!3d42.44978523990171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1469648407792" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
-					</iframe>
-				</div>
-				<p>* Located just south of downtown Pinckney between Dexter-Pinckney Road and South Howell Street.</p>
+                <figure>
+                    <img src="images/mapbox-styled-600x600.png" width="600" height="600" alt="Zoomed in map of Honey Creek Meadows south of downtown Pinckney" />
+                        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4058.8719071910887!2d-83.93990079875746!3d42.44978523990171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1469648407792" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>-->
+                        <!--</iframe>-->
+                    <!--</div>-->
+                    <figcaption>* Located just south of downtown Pinckney between Dexter-Pinckney Road and South Howell Street.</figcaption>
+                </figure>
 			</section>
 			<section id="board" class="board">
 				<div><a href="#board"></a></div>
@@ -195,21 +198,36 @@
 				<div><a href="#government"></a></div>
 				<h2>Local Government</h2>
 				<ul>
-					<li>
-						<div>
-							<h3>Village of Pinckney</h3>
-						</div>
+                    <li>
+						<figure>
+							<img src="images/default-avatar.png">
+							<figcaption>
+                                <h3>Village of Pinckney</h3>
+                                <p>This is a currently
+                                    <br>unknown address</p>
+							</figcaption>
+						</figure>
 					</li>
-					<li>
-						<div>
-							<h3>Putnam Township</h3>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h3>Livingston County</h3>
-						</div>
-					</li>
+                    <li>
+                        <figure>
+                            <img src="images/default-avatar.png">
+                            <figcaption>
+                                <h3>Putnam Township</h3>
+                                <p>This is a currently
+                                    <br>unknown address</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/default-avatar.png">
+                            <figcaption>
+                                <h3>Livingston County</h3>
+                                <p>This is a currently
+                                    <br>unknown address</p>
+                            </figcaption>
+                        </figure>
+                    </li>
 			</section>
 		</article>
 		<footer>

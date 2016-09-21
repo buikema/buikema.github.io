@@ -31,12 +31,6 @@ section {
 	margin-top: 1em;
 	margin-bottom: 2em;
 }
-span.dates {
-	font-style: italic;
-}
-span.invoices {
-    text-decoration: underline;
-}
 h2 {
 	margin-bottom: 0.8em;
 	padding-bottom:  0.4em;
@@ -61,6 +55,17 @@ img {
 a {
 	text-decoration: none;
 	color: rgb(105,0,60);
+}
+ul, ol {
+    list-style: none;
+}
+
+/*Styles for specicial text types*/
+span.dates {
+    font-style: italic;
+}
+span.invoices {
+    text-decoration: underline;
 }
 
 /*link underline animation*/
@@ -87,7 +92,6 @@ a:focus:after {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-    list-style: none;
 }
 .main-nav li {
 	margin: 0.3em 0.5em;
@@ -99,7 +103,7 @@ a:focus:after {
 .main-nav li:focus {
 	border-radius: 0.5em;
 	background-color: rgba(255,231,129,1);
-	transform: scale(1.2, 1.2);
+	transform: scale(1.1, 1.1);
 	transition-duration: 0.15s;
 	-webkit-transition-duration: 0.15s; /* Safari */
 }
@@ -133,7 +137,7 @@ a:focus:after {
 	border-style: none;
 }
 .covenant-download a:hover {
-    transform: scale(1.2, 1.2);
+    transform: scale(1.1, 1.1);
 	transition-duration: 0.15s;
 	-webkit-transition-duration: 0.15s; /* Safari */
 }
@@ -203,14 +207,10 @@ a:focus:after {
     max-width: 5em;
     border-left: 3px solid rgb(255,231,129);
 }
-.board ul {
-    list-style: none;
-}
 .board ol {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
-    list-style: none;
 }
 .board ol li {
     max-width: 18em;

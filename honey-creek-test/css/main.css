@@ -4,21 +4,29 @@ body {
 	color: #212121;
  	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-	/*Firefox support only*/
-    /*scroll-behavior: smooth;*/
-}
-header  {
-	background-color: rgb(255,231,129);
 }
 
 /*Leading title styles*/
-h1 {
+header  {
+	background-color: rgb(255,231,129);
+	overflow: hidden;
+}
+header svg {
+	position: relative;
+	z-index: 0;
+	margin: -15em 0 -5em 50vw;
+	width: 16em;
+	border-radius: 4em;
+}
+header h1 {
+	position: relative;
+	z-index: 1;
 	padding: 1rem;
 	font-size: 1.6em;
 	line-height: 1.2;
 	font-weight: 700;
 }
-h1 span {
+header h1 span {
 	font-size: 0.8em;
 	font-weight: 400;
 }
@@ -37,7 +45,7 @@ h2 {
 	border-bottom: 3px solid rgb(255,231,129);
 	font-size: 1.75em;
 	font-weight: 200;
-	letter-spacing: 0.5px;
+	letter-spacing: 1px;
 }
 h3 {
 	margin-top: 1.4em;
@@ -60,8 +68,8 @@ ul, ol {
     list-style: none;
 }
 
-/*Styles for specicial text types*/
-span.dates {
+/*Styles for special text types*/
+span.italic {
     font-style: italic;
 }
 span.invoices {
@@ -166,7 +174,7 @@ a:focus:after {
     margin-top: 1em;
 }
 .google-maps {
-	margin: 2em 0em 1em 0em;
+	margin: 2em 0 1em 0;
 	position: relative;
 	padding-bottom: 75%;  /*This is the aspect ratio*/
 	height: 0;
@@ -192,7 +200,7 @@ a:focus:after {
     margin: 0.5em 1em;
 }
 .board figcaption h3 {
-    margin-top: 0em;
+    margin-top: 0;
     margin-bottom: 0.4em;
 }
 .board figcaption p {
@@ -263,16 +271,13 @@ footer a {
 	}
 	header div {
 		margin: 0 auto;
-		padding: 3em 0em;
+		padding: 3em 0;
     	width: 36em;
 		transform: skewY(-2deg);
-
-		background-image: url(../images/HoneyCreekBeeLogo-Sq.png);
-		background-repeat: no-repeat;
-		background-size: 40%;
-		background-position: 75% -4em, center;
 	}
-	
+	header h1 {
+		font-size: 2em;
+	}
 	.container {
     	margin: 0 auto;
     	max-width: 36em;
@@ -299,10 +304,15 @@ footer a {
 	header div {
 		background-position: 95% -2em, center;
 	}
-	h1 {
+	header h1 {
 		font-size: 2.4em;
 		line-height: 1.2;
 		font-weight: 700;
+	}
+	header svg {
+		margin: -15em 0 -5em 40vw;
+		width: 24em;
+		border-radius: 8em;
 	}
 	h2 {
 		margin-bottom: 0.8em;
@@ -310,7 +320,7 @@ footer a {
 		border-bottom: 3px solid rgb(255,231,129);
 		font-size: 2.4em;
 		font-weight: 200;
-		letter-spacing: 0.5px;
+		letter-spacing: 1px;
 	}
 	.board ol {
 		flex-flow: row wrap;
@@ -324,6 +334,9 @@ footer a {
 @media screen and (min-width: 47.9em) {
     body {
     	font-size: 18px;
+    }
+    header svg {
+        margin: -15em 0 -5em 30vw;
     }
 
 	/*styles for dues section*/

@@ -213,6 +213,9 @@ span.invoices {
     overflow: hidden;
     margin-top: 2em;
 }
+.government a {
+    width: 100%;
+}
 .government figcaption {
     position: absolute;
     padding: 0.5em 2em;
@@ -232,6 +235,7 @@ span.invoices {
     line-height: 1.2em;
 
 }
+/*Reset for link effects*/
 .government a:after {
     content: "";
     display: block;

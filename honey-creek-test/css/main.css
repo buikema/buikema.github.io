@@ -76,24 +76,6 @@ span.invoices {
     text-decoration: underline;
 }
 
-/*link underline animation*/
-a {
-	display: inline-block;
-}
-a:after {
-	content: "";
-	display: block;
-	height: 2px;
-	width: 0;
-	background: transparent;
-	transition: width .25s ease, background-color .25s ease;
-}
-a:hover:after,
-a:focus:after {
-	width: 100%;
-	background: rgb(105,0,60);
-}
-
 /*styles and behavior for primary navigation list at top of page*/
 .main-nav ul {
 	margin: 1em 0;
@@ -173,20 +155,6 @@ a:focus:after {
 .map figcaption {
     margin-top: 1em;
 }
-.google-maps {
-	margin: 2em 0 1em 0;
-	position: relative;
-	padding-bottom: 75%;  /*This is the aspect ratio*/
-	height: 0;
-	overflow: hidden;
-}
-.google-maps iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100% !important;
-	height: 100% !important;
-}
 
 /*styles for board members info cards*/
 .board figure {
@@ -238,6 +206,41 @@ a:focus:after {
 	background-color: rgb(225,225,225);
 }
 
+/*Styles for local government section*/
+.government figure {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 2em;
+}
+.government figcaption {
+    position: absolute;
+    padding: 0.5em 2em;
+    width: 100%;
+    top: 0;
+    background-color: rgba(235,235,235,0.5);
+}
+.government h3 {
+    margin: 0;
+    color: #212121;
+    font-size: 1em;
+}
+.government p {
+    margin: 0.5em 0 0 0;
+    color: #212121;
+    font-size: 0.8em;
+    line-height: 1.2em;
+
+}
+.government a:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    background: transparent;
+    transition: none;
+}
+
 /*styles for footer section*/
 footer {
 	padding: 1em;
@@ -261,6 +264,24 @@ footer li {
 footer a {
 	font-size: 1.1em;
 	font-style: italic;
+}
+
+/*link underline animation*/
+a {
+    display: inline-block;
+}
+a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width .25s ease, background-color .25s ease;
+}
+a:hover:after,
+a:focus:after {
+    width: 100%;
+    background: rgb(105,0,60);
 }
 
 /*styles for devices in the tablet range*/

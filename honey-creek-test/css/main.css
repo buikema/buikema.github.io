@@ -307,6 +307,13 @@ a:focus:after {
     	margin: 0 auto;
     	max-width: 36em;
     }
+	.government h3 {
+		font-size: 1.2em;
+	}
+	.government p {
+		font-size: 1em;
+		line-height: 1.2em;
+	}
 
 	/*styles for footer*/
     footer {
@@ -353,6 +360,9 @@ a:focus:after {
 	.board ol li {
 		width: 17em;
 	}
+	.government figcaption {
+		padding: 1em 2em;
+	}
 }
 
 /*styles for devices in the tablet range*/
@@ -371,6 +381,22 @@ a:focus:after {
 	
 	.adobe-alert:visited {
 		display: block;
+	}
+	.government ul {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: flex-start;
+	}
+	.government li {
+		overflow: hidden;
+		width: 50%;
+		height: 17em;
+		font-size: 0.75em;
+	}
+	.government li:first-child {
+		width: 100%;
+		height: 20em;
+		font-size: 1em;
 	}
 }
 

@@ -7,6 +7,5 @@ Small website redesign for the homeowners association I live in. The old site is
 ### To Do Items
 
 - continue to tweak responsive images (why are such large photos used on mobile?)
-- adjust figcaption on government photos at larger screen sizes (bigger and more padding by 768px 35.5em)
 - fix avatar image sizes on Firefox
 - link map image to full mapbox page

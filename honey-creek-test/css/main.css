@@ -108,8 +108,12 @@ span.invoices {
 }
 
 /*styles for welcome list*/
+.welcome ul {
+	margin: 0 0 0 1.6em;
+
+}
 .welcome li {
-	margin: 0 1em 1em 1em;
+	margin-bottom: 1em;
 	list-style: square;
 }
 
@@ -143,7 +147,7 @@ span.invoices {
 
 /*lettering and styles for dues citation*/
 .dues ul {
-	margin: 0 1em;
+	margin: 0 0 0 1.6em;
 	list-style: lower-latin;
 }
 .dues li {
@@ -179,7 +183,7 @@ span.invoices {
 }
 .board figure img {
     display: inline;
-    margin: 0.5em;
+    margin: 0.5em 0.5em 0.5em 0;
     max-width: 5em;
     border-left: 3px solid rgb(255,231,129);
 }
@@ -211,14 +215,14 @@ span.invoices {
     display: block;
     position: relative;
     overflow: hidden;
-    margin-top: 2em;
+	margin-bottom: 1.4em;
 }
 .government a {
     width: 100%;
 }
 .government figcaption {
     position: absolute;
-    padding: 0.5em 2em;
+    padding: 0.5em 1.6em;
     width: 100%;
     top: 0;
     background-color: rgba(235,235,235,0.5);
@@ -321,14 +325,13 @@ a:focus:after {
     	justify-content: flex-start;
     }
     footer nav {
-    	margin-left: 2em;
-		margin-bottom: 2em;
+    	margin: 0 0 2em 1.6em;
 		flex-flow: column wrap;
     	justify-content: flex-start;
 		min-width: 12em;
     }
 	footer section {
-		margin: 0 0 2em 0;
+		margin: 0 0 2em 1em;
 	}
 }
 
@@ -390,7 +393,7 @@ a:focus:after {
 	.government li {
 		overflow: hidden;
 		width: 50%;
-		height: 17em;
+		height: 15em;
 		font-size: 0.75em;
 	}
 	.government li:first-child {

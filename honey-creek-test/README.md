@@ -8,8 +8,5 @@ Small website redesign for the homeowners association I live in. The old site is
 
 - continue to tweak responsive images (why are such large photos used on mobile?)
 - adjust figcaption on government photos at larger screen sizes (bigger and more padding by 768px 35.5em)
-- create flex effects for local government images
-- add government addresses to figcaptions
-- fix Title sizing at various device sizes
 - fix avatar image sizes on Firefox
 - link map image to full mapbox page

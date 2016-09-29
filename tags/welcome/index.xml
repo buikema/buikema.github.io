@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on Drew Buikema</title>
+    <link>http://buikema.work/tags/welcome/</link>
+    <description>Recent content in Welcome on Drew Buikema</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 May 2016 21:47:43 -0400</lastBuildDate>
+    <atom:link href="http://buikema.work/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome</title>
+      <link>http://buikema.work/post/welcome/</link>
+      <pubDate>Thu, 19 May 2016 21:47:43 -0400</pubDate>
+      
+      <guid>http://buikema.work/post/welcome/</guid>
+      <description>&lt;p&gt;This website will serve as a bit of a portfolio and grounds for experimentation with the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; site generator and &lt;a href=&#34;http://themes.gohugo.io/hyde/&#34;&gt;Hyde theme&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

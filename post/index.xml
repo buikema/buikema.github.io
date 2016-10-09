@@ -6,26 +6,8 @@
     <description>Recent content in Posts on Drew Buikema</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jul 2016 18:42:15 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 19 May 2016 21:47:43 -0400</lastBuildDate>
     <atom:link href="http://buikema.work/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>From the Archives</title>
-      <link>http://buikema.work/post/archives/</link>
-      <pubDate>Mon, 25 Jul 2016 18:42:15 -0400</pubDate>
-      
-      <guid>http://buikema.work/post/archives/</guid>
-      <description>
-
-&lt;h2 id=&#34;undergraduate-research-at-the-university-of-michigan-nsf-fellow:32fc005f9fafae99218aec4dbd5ab922&#34;&gt;Undergraduate Research at the University of Michigan (NSF Fellow)&lt;/h2&gt;
-
-&lt;p&gt;Fabian a graduate student at U of M needed a portable weather station that would record data as he studied eddy currents in the air as it passed from water to land. I worked under Nilton Renno as a National Science Foundation Undergraduate Fellow.&lt;/p&gt;
-
-&lt;h2 id=&#34;theater-manager-goodrich-quality-theaters-inc:32fc005f9fafae99218aec4dbd5ab922&#34;&gt;Theater Manager - Goodrich Quality Theaters Inc.&lt;/h2&gt;
-
-&lt;p&gt;More coming to this post as time allows.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Welcome</title>
@@ -33,7 +15,7 @@
       <pubDate>Thu, 19 May 2016 21:47:43 -0400</pubDate>
       
       <guid>http://buikema.work/post/welcome/</guid>
-      <description>&lt;p&gt;This website will serve as a bit of a portfolio and grounds for experimentation with the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; site generator and &lt;a href=&#34;http://themes.gohugo.io/hyde/&#34;&gt;Hyde theme&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;This website will serve as a bit of a portfolio and grounds for experimentation with the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; static site generator and &lt;a href=&#34;http://themes.gohugo.io/hyde/&#34;&gt;Hyde theme&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

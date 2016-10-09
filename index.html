@@ -74,6 +74,8 @@
     </h1>
     <p>This website will serve as a bit of a portfolio and grounds for experimentation with the <a href="https://gohugo.io/">Hugo</a> static site generator and <a href="http://themes.gohugo.io/hyde/">Hyde theme</a>.</p>
 
+<p>Find <a href="https://github.com/spf13/hugo">Hugo</a> and <a href="https://github.com/spf13/hyde">Hyde</a> on GitHub.</p>
+
   </div>
   
   
@@ -91,11 +93,11 @@
 
 <h2 id="a-smörgåsbord-of-experience:d680e8a854a7cbad6d490c445cba2eba">A Smörgåsbord of Experience</h2>
 
-<p>Carpenters, welders, and heavy equipment operators; it seems my family has always built things. Ever since I started developing for the web it&rsquo;s felt like the right balance of designing, engineering, and creativity. Instead of hammers and trowels, it&rsquo;s HTML5, CSS3, and JavaScript.</p>
+<p>Carpenters, welders, and heavy equipment operators; it seems my family has always built things. Ever since I started developing for the web it has felt like the right balance of designing, engineering, and creativity. Instead of hammers and trowels, it’s HTML5, CSS3, and JavaScript.</p>
 
 <p>Working in a broad range of fields —from <a href="../post/archives">atmospheric research</a> as an NSF fellow to managing ninety employees within a medium cinema company— has provided the perspective that I rely on to develop websites and tools for the web.</p>
 
-<p>I grew up in West Michigan (<a href="https://www.flickr.com/photos/drewbuikema/28149708346/in/dateposted-public">one of the most beautiful parts of the mitt</a>.) And currently reside outside Ann Arbor, where I&rsquo;ve lived ever since attending the <a href="http://lsa.umich.edu">University of Michigan</a>.</p>
+<p>I grew up in West Michigan (<a href="https://www.flickr.com/photos/drewbuikema/28149708346/in/dateposted-public">one of the most beautiful parts of the mitt</a>.) And currently reside outside Ann Arbor, where I’ve lived ever since attending the <a href="http://lsa.umich.edu">University of Michigan</a>.</p>
 
 <h2 id="find-me-around-the-internet:d680e8a854a7cbad6d490c445cba2eba">Find Me Around the Internet</h2>
 
@@ -121,46 +123,46 @@
 
     
 
-<p>Honey Creek Meadows is a small homeowners association in Pinckney, Michigan. Their <a href="http://www.hcmaofpinckney.net">original website</a> was from the table layout era, so I&rsquo;m trying to build a responsive site.</p>
+<p>Honey Creek Meadows is a small homeowners association in Pinckney, Michigan. Their <a href="http://www.hcmaofpinckney.net">original website</a> was from the table layout era, so I’m trying to build a responsive update.</p>
 
 <p><a href="/images/honey-creek-reference/homepage.png"><img src="/images/honey-creek-reference/homepage.png" alt="Screenshot of original Honey Creek Meadows website" /></a></p>
 
 <p><a href="/honey-creek-test/index.html">New Honey Creek Development Site</a> | <a href="https://github.com/buikema/honey-creek">Project Github Repository</a></p>
 
-<p>Throughout the project I wanted to focus on accessibility and readability. The website is ultimately not visited very often (I, as a resident in the neighborhood, didn&rsquo;t realize it existed for years.) The website isn&rsquo;t trying to draw people to the neighborhood, so I thought this would be a good opportunity to work on a few ideas that are -<strong>unfortunately</strong>- not the highest of priorities on many websites.</p>
+<p>The website is ultimately not visited very often (I, as a resident in the neighborhood, didn&rsquo;t realize it existed for years.) It’s an informational bulletin board, so I thought this would be a good opportunity to work on a few ideas that are <strong>unfortunately</strong> not the highest of priorities on many websites. Throughout the project I wanted to focus on accessibility and readability.</p>
 
 <h2 id="readability:eff93c8da04843752c12052237e4e8f8">Readability</h2>
 
-<p><em>At least in theory</em>, the default system font within an operating system or web browser is designed for optimal readability. A project that values an easy to read site above brand identity seemed like an ideal situation to see what can be done within the default system UI font-family.</p>
+<p><em>At least in theory</em>, the default system font within an operating system or web browser is designed for optimal readability. A project that values an easy to read website above brand identity seemed like an ideal situation to see what can be done within the default system UI font-family.</p>
 
-<p><a href="http://www.twitter.com/mwichary">Marcin Wichary&rsquo;s</a> writing about <a href="https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/">different approaches to using the default system UI on a website</a> convinced me that this could work for the project. Here is Marcin&rsquo;s method:</p>
+<p><a href="http://www.twitter.com/mwichary">Marcin Wichary’s</a> writing about <a href="https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/">different approaches to using the default system font on a website</a> convinced me that this could work for the project. Here is the method Marcin’s supported:</p>
 
 <pre><code class="language-css">body {
    font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Roboto&quot;, &quot;Oxygen&quot;, &quot;Ubuntu&quot;, &quot;Cantarell&quot;, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;
 }
 </code></pre>
 
-<p>The shortcomings of this method (like needing to update this list when an OS changes the system font or &lsquo;Roboto&rsquo; appearing on an Ubuntu machine used for development) aren&rsquo;t serious problems for a really small website that is primarily informational.</p>
+<p>The shortcomings of this method (like needing to update this list when an OS changes the system font or “Roboto” appearing on an Ubuntu machine where it’s installed) aren’t serious problems for a really small website that is primarily informational.</p>
 
 <p>Choosing to use the system font alone is a little limiting, but for a small project like this there is still plenty of available
-variation within the font family to create the desired hierarchy. Page titles can be thick and chunky, section titles can be tall and skinny, and body copy can still fit comfortably in between.</p>
+variety within the font family to create the desired hierarchy. Page titles can be thick and chunky, section titles can be tall and skinny, and body copy can still fit comfortably in between.</p>
 
 <p><a href="/images/new-website/mobile-title-view.png"><img src="/images/new-website/mobile-title-view.png" alt="Title typography for new Honey Creek Meadows website" /></a></p>
 
-<p>The Honey Creek Meadows site is primarily text and often paragraphs of it. At ever greater screen/ viewport sizes it was important to limit the line length of body text. I choose to raise the default font size larger than I typically would to keep the line length comfortably readable.</p>
+<p>The Honey Creek Meadows site is primarily text and often paragraphs of it. At ever greater screen/viewport sizes it was important to limit the line length of body text. I choose to raise the default font size larger than I typically would to keep the line length comfortably readable.</p>
 
 <p><a href="/images/new-website/desktop-large-viewport.png"><img src="/images/new-website/desktop-large-viewport.png" alt="Screenshot of new website with large viewport" /></a></p>
 
 <h2 id="accessibility:eff93c8da04843752c12052237e4e8f8">Accessibility</h2>
 
-<p>The impetus that started this website was a desire to move away from the original site&rsquo;s table layout. Using HTML accessible elements and a single page structure with sections for content that used to be individual pages made it both more accessible to screenreaders and simpler overall.</p>
+<p>The impetus that started this redesign was a desire to move away from the original site’s table layout. Using HTML accessible elements and a single page structure with sections for content that used to be individual pages made it both more accessible to screen readers and simpler overall.</p>
 
-<p>Although I discovered <a href="http://html5accessibilty.com">HTML5Accessibility.com</a> late in the development of the site, it&rsquo;s an incredibly helpful resource. Prior to learning about this website, Mozilla&rsquo;s dev page had been my go to reference. Additionally, I would like to add <code>&lt;date&gt;</code> elements to the website when time allows.</p>
+<p>Although I discovered <a href="http://html5accessibilty.com">HTML5Accessibility.com</a> late in the development of the site, it’s an incredibly helpful resource. Prior to learning about this website, Mozilla&rsquo;s dev page had been my go to reference. Additionally, I would like to add <code>&lt;date&gt;</code> elements to the website when time allows.</p>
 
 <p><a href="https://color.adobe.com/Honey-Creek-Meadows-color-theme-8701379/"><img src="/images/new-website/color-pallet.png" alt="Screenshot of new website with large viewport" /></a>
 <a href="https://color.adobe.com/Honey-Creek-Meadows-color-theme-8701379/">Adobe Color CC Pallet</a></p>
 
-<p>A color pallet with sufficient contrast is always something I consider while working on a website. Yellow can often be a challenge, but it fit the honey theme so well. As a result, yellow distinguishes between different sections or components of the site. Underlines, nav elements,</p>
+<p>A color pallet with sufficient contrast must always be considered. Yellow can often be a challenge, but it fit the honey theme so well. As a result, yellow distinguishes between different sections or components of the site. Underlines, navigation elements, or board member cards get a flourish of yellow. The thought being, spacing provides a similar signal in the event yellow doesn&rsquo;t have enough contrast for some viewers.</p>
 
   </div>
   
@@ -174,6 +176,8 @@ variation within the font family to create the desired hierarchy. Page titles ca
     <span class="post-date">Thu, May 19, 2016</span>
 
     <p>This website will serve as a bit of a portfolio and grounds for experimentation with the <a href="https://gohugo.io/">Hugo</a> static site generator and <a href="http://themes.gohugo.io/hyde/">Hyde theme</a>.</p>
+
+<p>Find <a href="https://github.com/spf13/hugo">Hugo</a> and <a href="https://github.com/spf13/hyde">Hyde</a> on GitHub.</p>
 
   </div>
   
